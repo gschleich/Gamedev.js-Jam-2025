@@ -18,13 +18,13 @@
 
 **Your kingdom:** The balance between both, crime exists but so does order. People have free will but laws that keep them from going too far. Although a small kingdom, the king, nobles and people of your kingdom fear the threats from the other 2 kingdoms and believe it is time for you, the heroic knight, to take them down and their corrupt practices.
 
-**Weapons: **
+**Weapons:**
 * Dark sword: Dark slash, Hellflame slash 
 * Holy spear: Holy stab, Holy spin 
 * Holy bow: Holy shot, Holy rain 
 * Dark chains: Dark grab, Hellish pull(Ribs enemies apart)[Based on enemy health]
 
-**Powers: ** 
+**Powers:** 
 * Demon summon: Summons a demon to scratch your enemy a few times
 * Angelic Horn: Summons angel archer to shoot a few shots towards an enemy
 * Angelic Heal
