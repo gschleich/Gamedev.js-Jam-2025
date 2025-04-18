@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PixelCircleWipe
+  m_Controller: {fileID: 9100000, guid: d7c2ef2768110014a8c399710f1c00fc, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 91525cc554e234b4bbdce5c4fb26c36d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 05bb9abb713a364468fcbc9d0fa6edc9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 364d083ba0ec25e4aa9e9cff4e6094a4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8c943cfb1093cfe4b80965c0997fcf05, type: 2}

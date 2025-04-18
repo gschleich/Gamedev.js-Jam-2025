@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class LoadSceneOnTrigger : MonoBehaviour
 {
+    public Animator transition;
+
     [Tooltip("Name of the scene to load on trigger with the Player.")]
     public string sceneToLoad;
 
@@ -13,12 +15,14 @@ public class LoadSceneOnTrigger : MonoBehaviour
         if (!hasTriggered && other.CompareTag("Player"))
         {
             hasTriggered = true;
-            StartCoroutine(LoadSceneAfterDelay(0.5f));
+            StartCoroutine(LoadSceneAfterDelay(1f));
         }
     }
 
     private System.Collections.IEnumerator LoadSceneAfterDelay(float delay)
     {
+        transition.SetTrigger("Start");
+
         yield return new WaitForSeconds(delay);
 
         if (!string.IsNullOrEmpty(sceneToLoad))
