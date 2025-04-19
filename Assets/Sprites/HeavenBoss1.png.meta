@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -140,78 +140,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HeavenBoss1_0
+      name: Barbarian2_outline_idle_0-sheet_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 0
-        width: 20
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ab696a0616833420800000000000000
-      internalID: 2608576038399732641
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeavenBoss1_1
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 20
-        width: 11
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 63a685114d9d7c4a0800000000000000
-      internalID: -6573045626276648394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeavenBoss1_2
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 0
+        x: 22
+        y: 12
         width: 22
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f3a27ccc3c27d1c10800000000000000
-      internalID: 2025901592666384959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeavenBoss1_3
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 0
-        width: 20
         height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -221,42 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 212d12ce65cbf4ae0800000000000000
-      internalID: -1562823464159423982
+      spriteID: e9a4c5b47bb379760800000000000000
+      internalID: 7464500565819280030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeavenBoss1_4
+      name: Barbarian2_outline_idle_0-sheet_1
       rect:
         serializedVersion: 2
-        x: 134
-        y: 0
-        width: 20
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 904d277a34a6b2760800000000000000
-      internalID: 7434152448709809161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeavenBoss1_5
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 3
+        x: 86
+        y: 12
         width: 22
-        height: 29
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,64 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a77622cb658077f0800000000000000
-      internalID: -616846451084462167
+      spriteID: 1b866eca18a3ee6e0800000000000000
+      internalID: -1806442071903016783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeavenBoss1_6
+      name: Barbarian2_outline_idle_0-sheet_2
       rect:
         serializedVersion: 2
-        x: 197
-        y: 0
-        width: 21
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b439c1c57fa09d8b0800000000000000
-      internalID: -5127054643266022581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeavenBoss1_7
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 25
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 150c075727b448cf0800000000000000
-      internalID: -250992724257226671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeavenBoss1_8
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 0
+        x: 150
+        y: 12
         width: 22
-        height: 30
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8abc99325eb1916e0800000000000000
-      internalID: -1866429899609617496
+      spriteID: ef85689f5974133c0800000000000000
+      internalID: -4381642252992751362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeavenBoss1_9
+      name: Barbarian2_outline_idle_0-sheet_3
       rect:
         serializedVersion: 2
-        x: 38
-        y: 0
-        width: 20
-        height: 21
+        x: 214
+        y: 12
+        width: 22
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,8 +221,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65e9c96cc4fb36a30800000000000000
-      internalID: 4207416813364747862
+      spriteID: d57adc7392b76f830800000000000000
+      internalID: 4104603527354885981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian2_outline_idle_0-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 12
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47387cf5d98fc5b30800000000000000
+      internalID: 4277567100895593332
       vertices: []
       indices: 
       edges: []
@@ -372,7 +262,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Barbarian2_outline_idle_0-sheet_0: 7464500565819280030
+      Barbarian2_outline_idle_0-sheet_1: -1806442071903016783
+      Barbarian2_outline_idle_0-sheet_2: -4381642252992751362
+      Barbarian2_outline_idle_0-sheet_3: 4104603527354885981
+      Barbarian2_outline_idle_0-sheet_4: 4277567100895593332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

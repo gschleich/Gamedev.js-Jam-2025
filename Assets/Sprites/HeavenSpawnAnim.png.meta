@@ -1,10 +1,28 @@
 fileFormatVersion: 2
-guid: 4190f72c014375542ad6ed679f1e3a5b
+guid: e45681ed0f94aa74f8f6daaa8292d98d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1954496527258026509
-    second: LargeWeapon48_0
+      213: 2073872001512228281
+    second: HeavenSpawnAnim_0
+  - first:
+      213: 4844803954468048438
+    second: HeavenSpawnAnim_1
+  - first:
+      213: 1014048436066576579
+    second: HeavenSpawnAnim_2
+  - first:
+      213: -863068117988200908
+    second: HeavenSpawnAnim_3
+  - first:
+      213: -2490815800878223364
+    second: HeavenSpawnAnim_4
+  - first:
+      213: 8174374831432089862
+    second: HeavenSpawnAnim_5
+  - first:
+      213: 6941735295744050267
+    second: HeavenSpawnAnim_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:

@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HellBoss2_0
+      name: Barbarian2_outline_idle_0-sheet_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 0
+        x: 22
+        y: 12
         width: 22
-        height: 27
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 025763407d20684b0800000000000000
-      internalID: -5438656377491393248
+      spriteID: e9a4c5b47bb379760800000000000000
+      internalID: 7464500565819280030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellBoss2_1
+      name: Barbarian2_outline_idle_0-sheet_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 0
+        x: 86
+        y: 12
         width: 22
-        height: 27
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,42 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c68865d35b66d9f30800000000000000
-      internalID: 4583932924337227884
+      spriteID: 1b866eca18a3ee6e0800000000000000
+      internalID: -1806442071903016783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellBoss2_2
+      name: Barbarian2_outline_idle_0-sheet_2
       rect:
         serializedVersion: 2
-        x: 68
-        y: 0
-        width: 24
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd52834e1d24001c0800000000000000
-      internalID: -4539554955144976931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HellBoss2_3
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 0
+        x: 150
+        y: 12
         width: 22
-        height: 26
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf57612c25b9c15a0800000000000000
-      internalID: -6549188978357668357
+      spriteID: ef85689f5974133c0800000000000000
+      internalID: -4381642252992751362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellBoss2_4
+      name: Barbarian2_outline_idle_0-sheet_3
       rect:
         serializedVersion: 2
-        x: 133
-        y: 0
+        x: 214
+        y: 12
         width: 22
-        height: 27
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8e7c6a33cbbf35e0800000000000000
-      internalID: -1927615668318077297
+      spriteID: d57adc7392b76f830800000000000000
+      internalID: 4104603527354885981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellBoss2_5
+      name: Barbarian2_outline_idle_0-sheet_4
       rect:
         serializedVersion: 2
-        x: 165
-        y: 0
+        x: 278
+        y: 12
         width: 22
-        height: 28
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,52 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72beb76fc71af64b0800000000000000
-      internalID: -5444955866384307417
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HellBoss2_6
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 0
-        width: 22
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a1a56f76d48818c0800000000000000
-      internalID: -4028323809887673945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HellBoss2_7
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 0
-        width: 24
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d44832500bcf891f0800000000000000
-      internalID: -1037801881178241971
+      spriteID: 47387cf5d98fc5b30800000000000000
+      internalID: 4277567100895593332
       vertices: []
       indices: 
       edges: []
@@ -322,7 +256,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Barbarian2_outline_idle_0-sheet_0: 7464500565819280030
+      Barbarian2_outline_idle_0-sheet_1: -1806442071903016783
+      Barbarian2_outline_idle_0-sheet_2: -4381642252992751362
+      Barbarian2_outline_idle_0-sheet_3: 4104603527354885981
+      Barbarian2_outline_idle_0-sheet_4: 4277567100895593332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
