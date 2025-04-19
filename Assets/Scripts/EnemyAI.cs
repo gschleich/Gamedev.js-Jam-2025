@@ -8,12 +8,13 @@ public class EnemyAI : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator animator;
-    private bool isIdle = true;
+    private SpriteRenderer spriteRenderer;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void FixedUpdate()
@@ -24,19 +25,35 @@ public class EnemyAI : MonoBehaviour
 
             if (distanceToPlayer <= chaseRange)
             {
-                // Start chasing
-                isIdle = false;
+                // Chase the player
                 Vector2 direction = (player.position - transform.position).normalized;
                 rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
+
+                // Flip to face player
+                if (player.position.x > transform.position.x)
+                    spriteRenderer.flipX = false; // face right
+                else
+                    spriteRenderer.flipX = true;  // face left
+
+                // Play walk animation if not already playing
+                if (!IsPlaying("Walk"))
+                    animator.Play("Walk");
             }
             else
             {
                 // Go idle
-                isIdle = true;
-                rb.linearVelocity = Vector2.zero; // optional if using velocity-based movement
+                rb.linearVelocity = Vector2.zero;
+
+                // Play idle animation if not already playing
+                if (!IsPlaying("Idle"))
+                    animator.Play("Idle");
             }
-            animator.SetBool("isIdle", isIdle);
         }
+    }
+
+    bool IsPlaying(string animationName)
+    {
+        return animator.GetCurrentAnimatorStateInfo(0).IsName(animationName);
     }
 
     void OnDrawGizmosSelected()
@@ -45,4 +62,3 @@ public class EnemyAI : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, chaseRange);
     }
 }
-
