@@ -1495,6 +1495,7 @@ GameObject:
   - component: {fileID: 980817457}
   - component: {fileID: 980817456}
   - component: {fileID: 980817455}
+  - component: {fileID: 980817459}
   m_Layer: 5
   m_Name: PlayerUICanvas
   m_TagString: Untagged
@@ -1588,6 +1589,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &980817459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980817454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69ff41ac6eed0847bbb26cb91c55848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  healthBar: {fileID: 1373644906}
 --- !u!1 &1177217743
 GameObject:
   m_ObjectHideFlags: 0
@@ -1682,7 +1698,6 @@ GameObject:
   - component: {fileID: 1197587658}
   - component: {fileID: 1197587657}
   - component: {fileID: 1197587662}
-  - component: {fileID: 1197587663}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1912,21 +1927,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1197587663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1197587655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d69ff41ac6eed0847bbb26cb91c55848, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 0
-  healthBar: {fileID: 1373644906}
 --- !u!1 &1247317961
 GameObject:
   m_ObjectHideFlags: 0

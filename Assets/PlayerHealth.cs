@@ -4,15 +4,39 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public static PlayerHealth Instance;
+
     public int maxHealth = 100;
     public int currentHealth;
 
     public HealthBar healthBar;
 
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject); // Prevent duplicates
+            return;
+        }
+    }
+
     void Start()
     {
-        currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
+        if (currentHealth == 0) // Only set if not already set
+        {
+            currentHealth = maxHealth;
+        }
+
+        if (healthBar != null)
+        {
+            healthBar.SetMaxHealth(maxHealth);
+            healthBar.SetHealth(currentHealth);
+        }
     }
 
     void Update()
@@ -20,12 +44,15 @@ public class PlayerHealth : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             TakeDamage(20);
-        }   
+        }
     }
 
     void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        healthBar.SetHealth(currentHealth);
+        if (healthBar != null)
+        {
+            healthBar.SetHealth(currentHealth);
+        }
     }
 }
