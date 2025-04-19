@@ -6,10 +6,12 @@ public class TopDownPlayerMovement : MonoBehaviour
     public float dashSpeed = 12f;
     public float dashDuration = 0.2f;
     public float dashCooldown = 1f;
+    public float attackCooldown = 0.5f;
 
     public Rigidbody2D rb;
     public SpriteRenderer spriteRenderer;
     public Animator animator;
+    public Animator weaponAnimator;
 
     public Transform childSpriteTransform;
     public SpriteRenderer childSpriteRenderer;
@@ -22,6 +24,14 @@ public class TopDownPlayerMovement : MonoBehaviour
     private bool isDashing = false;
     private float dashTime;
     private float dashCooldownTimer;
+    private float attackCooldownTimer;
+
+    private WeaponParent weaponParent;
+
+    private void Awake()
+    {
+        weaponParent = GetComponentInChildren<WeaponParent>();
+    }
 
     void Update()
     {
@@ -34,22 +44,39 @@ public class TopDownPlayerMovement : MonoBehaviour
             lastMovementDirection = movement.normalized;
         }
 
-        // Flip logic
-        if (movement.x < 0 && !isFacingLeft)
+        // Mouse position & weapon rotation
+        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mouseWorldPos.z = 0f;
+        weaponParent.PointerPosition = mouseWorldPos;
+
+        // Flip player sprite based on pointer position
+        if (mouseWorldPos.x < transform.position.x && !isFacingLeft)
         {
             spriteRenderer.flipX = true;
-            FlipChild(true);
             isFacingLeft = true;
         }
-        else if (movement.x > 0 && isFacingLeft)
+        else if (mouseWorldPos.x > transform.position.x && isFacingLeft)
         {
             spriteRenderer.flipX = false;
-            FlipChild(false);
             isFacingLeft = false;
         }
 
+        // Attack input
+        if (Input.GetMouseButtonDown(0) && attackCooldownTimer <= 0f)
+        {
+            weaponAnimator.SetTrigger("Attack");
+            attackCooldownTimer = attackCooldown;
+        }
+
+        // Decrease cooldown timers
+        if (attackCooldownTimer > 0f)
+            attackCooldownTimer -= Time.deltaTime;
+
+        if (dashCooldownTimer > 0f)
+            dashCooldownTimer -= Time.deltaTime;
+
         // Animation
-        if (!isDashing) // Don't override dash animation
+        if (!isDashing)
         {
             bool currentlyWalking = movement != Vector2.zero;
 
@@ -74,10 +101,6 @@ public class TopDownPlayerMovement : MonoBehaviour
 
             animator.Play("Dash");
         }
-
-        // Update dash cooldown
-        if (dashCooldownTimer > 0f)
-            dashCooldownTimer -= Time.deltaTime;
     }
 
     void FixedUpdate()
@@ -91,7 +114,6 @@ public class TopDownPlayerMovement : MonoBehaviour
             {
                 isDashing = false;
 
-                // Transition out of Dash animation
                 if (movement != Vector2.zero)
                 {
                     animator.Play("Walk");
@@ -108,14 +130,5 @@ public class TopDownPlayerMovement : MonoBehaviour
         {
             rb.MovePosition(rb.position + movement.normalized * moveSpeed * Time.fixedDeltaTime);
         }
-    }
-
-    void FlipChild(bool flipLeft)
-    {
-        Vector3 childPos = childSpriteTransform.localPosition;
-        childPos.x = -Mathf.Abs(childPos.x) * (flipLeft ? 1 : -1);
-        childSpriteTransform.localPosition = childPos;
-
-        childSpriteRenderer.flipX = flipLeft;
     }
 }
