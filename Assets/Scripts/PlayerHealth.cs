@@ -41,7 +41,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             TakeDamage(20);
         }

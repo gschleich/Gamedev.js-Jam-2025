@@ -93,7 +93,7 @@ public class TopDownPlayerMovement : MonoBehaviour
         }
 
         // Dash input
-        if (Input.GetKeyDown(KeyCode.LeftShift) && dashCooldownTimer <= 0f)
+        if (Input.GetKeyDown(KeyCode.Space) && dashCooldownTimer <= 0f)
         {
             isDashing = true;
             dashTime = dashDuration;
