@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b0036f8703223a345b624513d8b4931e
+guid: 638a366dc1df5b5429409376664bc631
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,30 +114,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Barbarian2_outline_idle_0-sheet_0
+      name: HellSpawnAnim_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 12
-        width: 22
-        height: 25
+        x: 9
+        y: 9
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9a4c5b47bb379760800000000000000
-      internalID: 7464500565819280030
+      spriteID: e1a205298e6c5b7a0800000000000000
+      internalID: -6361960196401518050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barbarian2_outline_idle_0-sheet_1
+      name: HellSpawnAnim_1
       rect:
         serializedVersion: 2
-        x: 86
-        y: 12
-        width: 22
-        height: 24
+        x: 53
+        y: 5
+        width: 38
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b866eca18a3ee6e0800000000000000
-      internalID: -1806442071903016783
+      spriteID: 6d898eb144b9face0800000000000000
+      internalID: -1391723043005884202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barbarian2_outline_idle_0-sheet_2
+      name: HellSpawnAnim_2
       rect:
         serializedVersion: 2
-        x: 150
-        y: 12
-        width: 22
-        height: 23
+        x: 97
+        y: 1
+        width: 46
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef85689f5974133c0800000000000000
-      internalID: -4381642252992751362
+      spriteID: 1d87a22bb357801c0800000000000000
+      internalID: -4537247725323126575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barbarian2_outline_idle_0-sheet_3
+      name: HellSpawnAnim_3
       rect:
         serializedVersion: 2
-        x: 214
-        y: 12
-        width: 22
-        height: 23
+        x: 143
+        y: 0
+        width: 50
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d57adc7392b76f830800000000000000
-      internalID: 4104603527354885981
+      spriteID: 5ebd3b94596143060800000000000000
+      internalID: 6932190556872498149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barbarian2_outline_idle_0-sheet_4
+      name: HellSpawnAnim_4
       rect:
         serializedVersion: 2
-        x: 278
-        y: 12
-        width: 22
-        height: 24
+        x: 193
+        y: 1
+        width: 46
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,8 +221,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 47387cf5d98fc5b30800000000000000
-      internalID: 4277567100895593332
+      spriteID: cdb11109a6f4f8600800000000000000
+      internalID: 472683804999359452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HellSpawnAnim_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 5
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7204d4e438de2b4e0800000000000000
+      internalID: -1967248938997301209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HellSpawnAnim_6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 9
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfadc41617437740800000000000000
+      internalID: 5148536959178485706
       vertices: []
       indices: 
       edges: []
@@ -253,12 +284,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Barbarian2_outline_idle_0-sheet_0: 7464500565819280030
-      Barbarian2_outline_idle_0-sheet_1: -1806442071903016783
-      Barbarian2_outline_idle_0-sheet_2: -4381642252992751362
-      Barbarian2_outline_idle_0-sheet_3: 4104603527354885981
-      Barbarian2_outline_idle_0-sheet_4: 4277567100895593332
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
