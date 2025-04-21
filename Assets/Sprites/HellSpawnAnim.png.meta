@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HellSpawnAnim_0: -6361960196401518050
+      HellSpawnAnim_1: -1391723043005884202
+      HellSpawnAnim_2: -4537247725323126575
+      HellSpawnAnim_3: 6932190556872498149
+      HellSpawnAnim_4: 472683804999359452
+      HellSpawnAnim_5: -1967248938997301209
+      HellSpawnAnim_6: 5148536959178485706
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

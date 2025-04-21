@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HeavenSpawnAnim_0: 2073872001512228281
+      HeavenSpawnAnim_1: 4844803954468048438
+      HeavenSpawnAnim_2: 1014048436066576579
+      HeavenSpawnAnim_3: -863068117988200908
+      HeavenSpawnAnim_4: -2490815800878223364
+      HeavenSpawnAnim_5: 8174374831432089862
+      HeavenSpawnAnim_6: 6941735295744050267
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
