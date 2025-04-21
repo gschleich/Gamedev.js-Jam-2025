@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LargeWeapon48_0
+      name: Barbarian2_outline_idle_0-sheet_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 12
-        height: 39
+        x: 22
+        y: 12
+        width: 22
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fdfc0a83cb30e4e0800000000000000
-      internalID: -1954496527258026509
+      spriteID: e9a4c5b47bb379760800000000000000
+      internalID: 7464500565819280030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian2_outline_idle_0-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 12
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b866eca18a3ee6e0800000000000000
+      internalID: -1806442071903016783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian2_outline_idle_0-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 12
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef85689f5974133c0800000000000000
+      internalID: -4381642252992751362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian2_outline_idle_0-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 12
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57adc7392b76f830800000000000000
+      internalID: 4104603527354885981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian2_outline_idle_0-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 12
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47387cf5d98fc5b30800000000000000
+      internalID: 4277567100895593332
       vertices: []
       indices: 
       edges: []
@@ -148,7 +236,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      LargeWeapon48_0: -1954496527258026509
+      Barbarian2_outline_idle_0-sheet_0: 7464500565819280030
+      Barbarian2_outline_idle_0-sheet_1: -1806442071903016783
+      Barbarian2_outline_idle_0-sheet_2: -4381642252992751362
+      Barbarian2_outline_idle_0-sheet_3: 4104603527354885981
+      Barbarian2_outline_idle_0-sheet_4: 4277567100895593332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

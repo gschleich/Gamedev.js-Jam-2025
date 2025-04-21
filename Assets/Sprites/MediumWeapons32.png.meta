@@ -106,7 +106,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,7 +144,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -182,452 +182,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MediumWeapons32_0
+      name: Barbarian2_outline_idle_0-sheet_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 12
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bfca4b18f978b7820800000000000000
-      internalID: 2917074302798179579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_1
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 0
-        width: 12
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a75e7756aa22a1a0800000000000000
-      internalID: -6799825593455192158
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_2
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 0
-        width: 12
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 990fb5b74ce5f3d10800000000000000
-      internalID: 2107507348608905369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_3
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 0
-        width: 12
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0dda4e42f5478a6d0800000000000000
-      internalID: -2979003201515901488
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_4
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 0
-        width: 12
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aeb8d4e0fa71bfd20800000000000000
-      internalID: 3313267991487810538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_5
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 0
-        width: 12
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1a3e45be8d882f50800000000000000
-      internalID: 6856886076738255386
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_6
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 0
-        width: 8
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 536964203bfe56440800000000000000
-      internalID: 4928608919343240757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_7
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 0
-        width: 12
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 924705fcdd1fc4800800000000000000
-      internalID: 598118785501656105
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_8
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 0
-        width: 14
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d5d068986150f2da0800000000000000
-      internalID: -5967545386887934627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_9
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 0
-        width: 11
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4314f267b8d926ff0800000000000000
-      internalID: -44299824011460300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_10
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 0
-        width: 7
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46116babeacb8d270800000000000000
-      internalID: 8275571773936111972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_11
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 0
-        width: 10
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d14b0f7bb02d6a9d0800000000000000
-      internalID: -2763290373572742115
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_12
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 0
-        width: 11
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17d1a5082765229a0800000000000000
-      internalID: -6259345482311918223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_13
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 0
-        width: 12
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b2d7b606997f3c250800000000000000
-      internalID: 5963882569688382763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_14
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 0
-        width: 12
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eb1532f7ec69d3940800000000000000
-      internalID: 5277540151988539838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_15
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 0
-        width: 12
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a405b3f66be6905d0800000000000000
-      internalID: -3095821539011243958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_16
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 0
-        width: 10
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7580167510dba1400800000000000000
-      internalID: 295756539004782679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_17
-      rect:
-        serializedVersion: 2
-        x: 275
-        y: 0
-        width: 10
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e534c50823944080800000000000000
-      internalID: -9204069938333731359
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_18
-      rect:
-        serializedVersion: 2
-        x: 287
-        y: 0
-        width: 18
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9b22d0778f635e00800000000000000
-      internalID: 1032291367102065565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_19
-      rect:
-        serializedVersion: 2
-        x: 308
-        y: 0
-        width: 8
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c0894bd353b170c0800000000000000
-      internalID: -4579682173316398910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_20
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 0
-        width: 14
+        x: 22
+        y: 12
+        width: 22
         height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -637,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25834059351d0f020800000000000000
-      internalID: 2373627160536823890
+      spriteID: e9a4c5b47bb379760800000000000000
+      internalID: 7464500565819280030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediumWeapons32_21
+      name: Barbarian2_outline_idle_0-sheet_1
       rect:
         serializedVersion: 2
-        x: 343
-        y: 2
-        width: 9
-        height: 28
+        x: 86
+        y: 12
+        width: 22
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -659,41 +219,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b0562b60d0297f10800000000000000
-      internalID: 2267879966880714931
+      spriteID: 1b866eca18a3ee6e0800000000000000
+      internalID: -1806442071903016783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediumWeapons32_22
+      name: Barbarian2_outline_idle_0-sheet_2
       rect:
         serializedVersion: 2
-        x: 352
-        y: 2
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e740e677371309fe0800000000000000
-      internalID: -1184392330003741570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediumWeapons32_23
-      rect:
-        serializedVersion: 2
-        x: 371
-        y: 0
-        width: 9
+        x: 150
+        y: 12
+        width: 22
         height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -703,8 +241,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6084dfbda2bd666f0800000000000000
-      internalID: -691624515628873722
+      spriteID: ef85689f5974133c0800000000000000
+      internalID: -4381642252992751362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian2_outline_idle_0-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 12
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57adc7392b76f830800000000000000
+      internalID: 4104603527354885981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barbarian2_outline_idle_0-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 12
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47387cf5d98fc5b30800000000000000
+      internalID: 4277567100895593332
       vertices: []
       indices: 
       edges: []
@@ -723,30 +305,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MediumWeapons32_0: 2917074302798179579
-      MediumWeapons32_1: -6799825593455192158
-      MediumWeapons32_10: 8275571773936111972
-      MediumWeapons32_11: -2763290373572742115
-      MediumWeapons32_12: -6259345482311918223
-      MediumWeapons32_13: 5963882569688382763
-      MediumWeapons32_14: 5277540151988539838
-      MediumWeapons32_15: -3095821539011243958
-      MediumWeapons32_16: 295756539004782679
-      MediumWeapons32_17: -9204069938333731359
-      MediumWeapons32_18: 1032291367102065565
-      MediumWeapons32_19: -4579682173316398910
-      MediumWeapons32_2: 2107507348608905369
-      MediumWeapons32_20: 2373627160536823890
-      MediumWeapons32_21: 2267879966880714931
-      MediumWeapons32_22: -1184392330003741570
-      MediumWeapons32_23: -691624515628873722
-      MediumWeapons32_3: -2979003201515901488
-      MediumWeapons32_4: 3313267991487810538
-      MediumWeapons32_5: 6856886076738255386
-      MediumWeapons32_6: 4928608919343240757
-      MediumWeapons32_7: 598118785501656105
-      MediumWeapons32_8: -5967545386887934627
-      MediumWeapons32_9: -44299824011460300
+      Barbarian2_outline_idle_0-sheet_0: 7464500565819280030
+      Barbarian2_outline_idle_0-sheet_1: -1806442071903016783
+      Barbarian2_outline_idle_0-sheet_2: -4381642252992751362
+      Barbarian2_outline_idle_0-sheet_3: 4104603527354885981
+      Barbarian2_outline_idle_0-sheet_4: 4277567100895593332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

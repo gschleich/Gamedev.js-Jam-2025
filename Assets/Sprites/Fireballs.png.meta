@@ -1,10 +1,31 @@
 fileFormatVersion: 2
-guid: 6ef3aca394010874d94cc6d1abf7567f
+guid: 65c1fae581320c4448adf68391e95ee8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8985345405590612982
-    second: HeavenSpawn_0
+      213: -2166375461198085728
+    second: Fireballs_0
+  - first:
+      213: 893771184096409568
+    second: Fireballs_1
+  - first:
+      213: 895611578193912153
+    second: Fireballs_2
+  - first:
+      213: 4558232682451856985
+    second: Fireballs_3
+  - first:
+      213: -2822853269439717377
+    second: Fireballs_4
+  - first:
+      213: -396288157453936795
+    second: Fireballs_5
+  - first:
+      213: 1374830100445117402
+    second: Fireballs_6
+  - first:
+      213: -2608274883206449265
+    second: Fireballs_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +67,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,111 +134,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Barbarian2_outline_idle_0-sheet_0
+      name: Fireballs_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 12
-        width: 22
-        height: 25
+        x: 0
+        y: 16
+        width: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e9a4c5b47bb379760800000000000000
-      internalID: 7464500565819280030
+      spriteID: 1594763a0cdeaf949b97e9d393fbd02b
+      internalID: -1264638023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barbarian2_outline_idle_0-sheet_1
+      name: Fireballs_1
       rect:
         serializedVersion: 2
-        x: 86
-        y: 12
-        width: 22
-        height: 24
+        x: 32
+        y: 16
+        width: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1b866eca18a3ee6e0800000000000000
-      internalID: -1806442071903016783
+      spriteID: 9dadd5d9dd59a3c45916f7823aa02a16
+      internalID: 1525723946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barbarian2_outline_idle_0-sheet_2
+      name: Fireballs_2
       rect:
         serializedVersion: 2
-        x: 150
-        y: 12
-        width: 22
-        height: 23
+        x: 64
+        y: 16
+        width: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ef85689f5974133c0800000000000000
-      internalID: -4381642252992751362
+      spriteID: 004da3eb612930641ac01d7c5f8f98b1
+      internalID: -1680819002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barbarian2_outline_idle_0-sheet_3
+      name: Fireballs_3
       rect:
         serializedVersion: 2
-        x: 214
-        y: 12
-        width: 22
-        height: 23
+        x: 96
+        y: 16
+        width: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d57adc7392b76f830800000000000000
-      internalID: 4104603527354885981
+      spriteID: f9c3fbf2a8f38ce40ac98504a83210b1
+      internalID: 833929259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barbarian2_outline_idle_0-sheet_4
+      name: Fireballs_4
       rect:
         serializedVersion: 2
-        x: 278
-        y: 12
-        width: 22
-        height: 24
+        x: 0
+        y: 0
+        width: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 47387cf5d98fc5b30800000000000000
-      internalID: 4277567100895593332
+      spriteID: 84bbd9346ddd2234285c9d54ca341d6a
+      internalID: 962639672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireballs_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e27e98948aa6b43bb533187ee4377c
+      internalID: 258254433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireballs_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22bf936f1ccc6148bb3e610a738966e
+      internalID: 89542231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireballs_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e695456a91c5f40a5de8d0aabb46d3
+      internalID: 1980525045
       vertices: []
       indices: 
       edges: []
@@ -226,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: dc88198466278134b9d50c34125af3e7
     internalID: 0
     vertices: []
     indices: 
@@ -236,11 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Barbarian2_outline_idle_0-sheet_0: 7464500565819280030
-      Barbarian2_outline_idle_0-sheet_1: -1806442071903016783
-      Barbarian2_outline_idle_0-sheet_2: -4381642252992751362
-      Barbarian2_outline_idle_0-sheet_3: 4104603527354885981
-      Barbarian2_outline_idle_0-sheet_4: 4277567100895593332
+      Fireballs_0: -1264638023
+      Fireballs_1: 1525723946
+      Fireballs_2: -1680819002
+      Fireballs_3: 833929259
+      Fireballs_4: 962639672
+      Fireballs_5: 258254433
+      Fireballs_6: 89542231
+      Fireballs_7: 1980525045
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
