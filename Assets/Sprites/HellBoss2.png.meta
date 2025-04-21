@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HellBoss2_0: -5438656377491393248
+      HellBoss2_1: 4583932924337227884
+      HellBoss2_2: -4539554955144976931
+      HellBoss2_3: -6549188978357668357
+      HellBoss2_4: -1927615668318077297
+      HellBoss2_5: -5444955866384307417
+      HellBoss2_6: -4028323809887673945
+      HellBoss2_7: -1037801881178241971
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

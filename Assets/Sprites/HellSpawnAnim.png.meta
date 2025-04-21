@@ -1,31 +1,28 @@
 fileFormatVersion: 2
-guid: 5fc9cc5d079a61248a93170e91bf4b45
+guid: 638a366dc1df5b5429409376664bc631
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3229467662359159619
-    second: HellBoss1_0
+      213: -6361960196401518050
+    second: HellSpawnAnim_0
   - first:
-      213: 119666943855799800
-    second: HellBoss1_1
+      213: -1391723043005884202
+    second: HellSpawnAnim_1
   - first:
-      213: 5015574390073542420
-    second: HellBoss1_2
+      213: -4537247725323126575
+    second: HellSpawnAnim_2
   - first:
-      213: 1814357104725972850
-    second: HellBoss1_3
+      213: 6932190556872498149
+    second: HellSpawnAnim_3
   - first:
-      213: 3251621736883698883
-    second: HellBoss1_4
+      213: 472683804999359452
+    second: HellSpawnAnim_4
   - first:
-      213: 8675653147211815806
-    second: HellBoss1_5
+      213: -1967248938997301209
+    second: HellSpawnAnim_5
   - first:
-      213: 8585380725661887723
-    second: HellBoss1_6
-  - first:
-      213: 8813149165464937195
-    second: HellBoss1_7
+      213: 5148536959178485706
+    second: HellSpawnAnim_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -117,117 +114,16 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HellBoss1_0
+      name: HellSpawnAnim_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 0
-        width: 25
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dbc98738540ae23d0800000000000000
-      internalID: -3229467662359159619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HellBoss1_1
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 0
-        width: 25
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8fda1ef837429a100800000000000000
-      internalID: 119666943855799800
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HellBoss1_2
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 0
-        width: 24
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 41741e88556ea9540800000000000000
-      internalID: 5015574390073542420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HellBoss1_3
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 0
-        width: 28
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 277d5e28c24ed2910800000000000000
-      internalID: 1814357104725972850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HellBoss1_4
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 1
-        width: 24
+        x: 9
+        y: 9
+        width: 30
         height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -237,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3cc34eaedb4102d20800000000000000
-      internalID: 3251621736883698883
+      spriteID: e1a205298e6c5b7a0800000000000000
+      internalID: -6361960196401518050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellBoss1_5
+      name: HellSpawnAnim_1
       rect:
         serializedVersion: 2
-        x: 163
-        y: 3
-        width: 24
-        height: 29
+        x: 53
+        y: 5
+        width: 38
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,20 +155,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7b5f02629c166870800000000000000
-      internalID: 8675653147211815806
+      spriteID: 6d898eb144b9face0800000000000000
+      internalID: -1391723043005884202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellBoss1_6
+      name: HellSpawnAnim_2
       rect:
         serializedVersion: 2
-        x: 195
+        x: 97
+        y: 1
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d87a22bb357801c0800000000000000
+      internalID: -4537247725323126575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HellSpawnAnim_3
+      rect:
+        serializedVersion: 2
+        x: 143
         y: 0
-        width: 24
-        height: 32
+        width: 50
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: becef8e5846652770800000000000000
-      internalID: 8585380725661887723
+      spriteID: 5ebd3b94596143060800000000000000
+      internalID: 6932190556872498149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellBoss1_7
+      name: HellSpawnAnim_4
       rect:
         serializedVersion: 2
-        x: 227
-        y: 0
-        width: 25
-        height: 29
+        x: 193
+        y: 1
+        width: 46
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,8 +221,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be26110d8789e4a70800000000000000
-      internalID: 8813149165464937195
+      spriteID: cdb11109a6f4f8600800000000000000
+      internalID: 472683804999359452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HellSpawnAnim_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 5
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7204d4e438de2b4e0800000000000000
+      internalID: -1967248938997301209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HellSpawnAnim_6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 9
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfadc41617437740800000000000000
+      internalID: 5148536959178485706
       vertices: []
       indices: 
       edges: []
@@ -322,15 +284,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      HellBoss1_0: -3229467662359159619
-      HellBoss1_1: 119666943855799800
-      HellBoss1_2: 5015574390073542420
-      HellBoss1_3: 1814357104725972850
-      HellBoss1_4: 3251621736883698883
-      HellBoss1_5: 8675653147211815806
-      HellBoss1_6: 8585380725661887723
-      HellBoss1_7: 8813149165464937195
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

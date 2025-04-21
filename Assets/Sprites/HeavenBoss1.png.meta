@@ -372,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HeavenBoss1_0: 2608576038399732641
+      HeavenBoss1_1: -6573045626276648394
+      HeavenBoss1_2: 2025901592666384959
+      HeavenBoss1_3: -1562823464159423982
+      HeavenBoss1_4: 7434152448709809161
+      HeavenBoss1_5: -616846451084462167
+      HeavenBoss1_6: -5127054643266022581
+      HeavenBoss1_7: -250992724257226671
+      HeavenBoss1_8: -1866429899609617496
+      HeavenBoss1_9: 4207416813364747862
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
