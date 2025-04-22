@@ -305,11 +305,30 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Barbarian2_outline_idle_0-sheet_0: 7464500565819280030
-      Barbarian2_outline_idle_0-sheet_1: -1806442071903016783
-      Barbarian2_outline_idle_0-sheet_2: -4381642252992751362
-      Barbarian2_outline_idle_0-sheet_3: 4104603527354885981
-      Barbarian2_outline_idle_0-sheet_4: 4277567100895593332
+      MediumWeapons32_0: 2917074302798179579
+      MediumWeapons32_1: -6799825593455192158
+      MediumWeapons32_10: 8275571773936111972
+      MediumWeapons32_11: -2763290373572742115
+      MediumWeapons32_12: -6259345482311918223
+      MediumWeapons32_13: 5963882569688382763
+      MediumWeapons32_14: 5277540151988539838
+      MediumWeapons32_15: -3095821539011243958
+      MediumWeapons32_16: 295756539004782679
+      MediumWeapons32_17: -9204069938333731359
+      MediumWeapons32_18: 1032291367102065565
+      MediumWeapons32_19: -4579682173316398910
+      MediumWeapons32_2: 2107507348608905369
+      MediumWeapons32_20: 2373627160536823890
+      MediumWeapons32_21: 2267879966880714931
+      MediumWeapons32_22: -1184392330003741570
+      MediumWeapons32_23: -691624515628873722
+      MediumWeapons32_3: -2979003201515901488
+      MediumWeapons32_4: 3313267991487810538
+      MediumWeapons32_5: 6856886076738255386
+      MediumWeapons32_6: 4928608919343240757
+      MediumWeapons32_7: 598118785501656105
+      MediumWeapons32_8: -5967545386887934627
+      MediumWeapons32_9: -44299824011460300
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
