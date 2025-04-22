@@ -12,12 +12,12 @@ public class KnockbackScript : MonoBehaviour
     private float strength = 16, delay = 0.15f;
     public UnityEvent OnBegin, OnDone;
 
-    public void PlayFeedbacl(GameObject sender)
+    public void PlayFeedback(GameObject sender)
     {
         StopAllCoroutines();
         OnBegin?.Invoke();
         Vector2 direction = (transform.position - sender.transform.position).normalized;
-        rb2d.AddForce(direction*strength, ForceMode2D.Impulse);
+        rb2d.AddForce(direction * strength, ForceMode2D.Impulse);
         StartCoroutine(Reset());
     }
     
