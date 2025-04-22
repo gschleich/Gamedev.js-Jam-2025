@@ -9,16 +9,22 @@ public class EnemyAI : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+    private GarrettsKnockback knockback;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        knockback = GetComponent<GarrettsKnockback>();
     }
 
     void FixedUpdate()
     {
+        // Prevent AI movement while being knocked back
+        if (knockback != null && knockback.IsBeingKnockedBack())
+            return;
+
         if (player != null)
         {
             float distanceToPlayer = Vector2.Distance(transform.position, player.position);
