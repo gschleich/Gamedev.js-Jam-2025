@@ -6,6 +6,11 @@ public class Projectile : MonoBehaviour
 
     private Vector2 moveDirection;
 
+    void Start()
+    {
+        Destroy(gameObject, 3f); // 💣 Destroy after 3 seconds
+    }
+
     public void SetDirection(Vector2 dir)
     {
         moveDirection = dir.normalized;
