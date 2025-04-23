@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -87,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,20 +128,20 @@ TextureImporter:
       name: 1 Death dust-sheet_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 6
-        width: 10
-        height: 10
+        x: 0
+        y: 0
+        width: 26
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b598574e13d3361a0800000000000000
-      internalID: -6817538126413199013
+      spriteID: 6cd3c4549080948a0bb493eff16bba80
+      internalID: 1416814832
       vertices: []
       indices: 
       edges: []
@@ -150,20 +150,20 @@ TextureImporter:
       name: 1 Death dust-sheet_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 5
-        width: 14
-        height: 12
+        x: 26
+        y: 0
+        width: 26
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2861d927d73067a90800000000000000
-      internalID: -7316656707288099198
+      spriteID: 30a7531b180414481a8ad2a8b170b74c
+      internalID: 1666305432
       vertices: []
       indices: 
       edges: []
@@ -172,20 +172,20 @@ TextureImporter:
       name: 1 Death dust-sheet_2
       rect:
         serializedVersion: 2
-        x: 54
-        y: 2
-        width: 22
-        height: 18
+        x: 52
+        y: 0
+        width: 26
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e2fde082452fc2350800000000000000
-      internalID: 5993431647386525486
+      spriteID: d70e3f3d82a8340e7ab88b8e171ac40a
+      internalID: 1781508643
       vertices: []
       indices: 
       edges: []
@@ -194,9 +194,9 @@ TextureImporter:
       name: 1 Death dust-sheet_3
       rect:
         serializedVersion: 2
-        x: 79
+        x: 78
         y: 0
-        width: 77
+        width: 26
         height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3a1e132be3357e850800000000000000
-      internalID: 6406180523700511139
+      spriteID: 76dd773d653ea40a2a6925f631918ff5
+      internalID: -362953796
       vertices: []
       indices: 
       edges: []
@@ -216,20 +216,42 @@ TextureImporter:
       name: 1 Death dust-sheet_4
       rect:
         serializedVersion: 2
-        x: 79
-        y: 2
-        width: 7
-        height: 10
+        x: 104
+        y: 0
+        width: 26
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4d685866bb13b1f50800000000000000
-      internalID: 6853125938923013844
+      spriteID: e0a6a0753a9ad46b1b88714d6820ca89
+      internalID: -382909146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1 Death dust-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eea723555d2d4da7b35dd66fc54ae3c
+      internalID: 1132010535
       vertices: []
       indices: 
       edges: []
@@ -238,7 +260,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7f676bf47c9704958adde045fab643d6
     internalID: 0
     vertices: []
     indices: 
@@ -248,11 +270,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      1 Death dust-sheet_0: -6817538126413199013
-      1 Death dust-sheet_1: -7316656707288099198
-      1 Death dust-sheet_2: 5993431647386525486
-      1 Death dust-sheet_3: 6406180523700511139
-      1 Death dust-sheet_4: 6853125938923013844
+      1 Death dust-sheet_0: 1416814832
+      1 Death dust-sheet_1: 1666305432
+      1 Death dust-sheet_2: 1781508643
+      1 Death dust-sheet_3: -362953796
+      1 Death dust-sheet_4: -382909146
+      1 Death dust-sheet_5: 1132010535
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 681335}
   - component: {fileID: 681334}
+  - component: {fileID: 681336}
   m_Layer: 0
   m_Name: Demigod3
   m_TagString: Untagged
@@ -206,6 +207,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857739319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &681336
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681333}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 32e71916e960d485282c2dcbc67241a4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &31880336
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,6 +336,7 @@ GameObject:
   m_Component:
   - component: {fileID: 163698826}
   - component: {fileID: 163698825}
+  - component: {fileID: 163698827}
   m_Layer: 0
   m_Name: Demigod1
   m_TagString: Untagged
@@ -390,6 +414,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857739319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &163698827
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163698824}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c86c00d4eb0ce4ef59afab1099138124, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &211456744
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,6 +446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 211456746}
   - component: {fileID: 211456745}
+  - component: {fileID: 211456747}
   m_Layer: 0
   m_Name: HeavenEnemy4
   m_TagString: Untagged
@@ -477,6 +524,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857739319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &211456747
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211456744}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 055eeb78bfd4f4791b57d4e1ad46eb06, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &301966279
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,6 +556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 301966281}
   - component: {fileID: 301966280}
+  - component: {fileID: 301966282}
   m_Layer: 0
   m_Name: HeavenEnemy7
   m_TagString: Untagged
@@ -564,6 +634,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857739319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &301966282
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301966279}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: c8113d2a85d2b471d93de9dadd38dcee, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &444133977
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,6 +890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 583214173}
   - component: {fileID: 583214172}
+  - component: {fileID: 583214174}
   m_Layer: 0
   m_Name: Demigod2
   m_TagString: Untagged
@@ -875,6 +968,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857739319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &583214174
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583214171}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 36d903105cbf347889878fef2d9b87a8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,6 +1226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 825647296}
   - component: {fileID: 825647295}
+  - component: {fileID: 825647297}
   m_Layer: 0
   m_Name: HeavenEnemy5
   m_TagString: Untagged
@@ -1188,6 +1304,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857739319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &825647297
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825647294}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 890df11b7038148ebac171c6ba492262, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &857739318
 GameObject:
   m_ObjectHideFlags: 0
@@ -13104,6 +13242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1467829655}
   - component: {fileID: 1467829654}
+  - component: {fileID: 1467829656}
   m_Layer: 0
   m_Name: HeavenEnemy8
   m_TagString: Untagged
@@ -13181,6 +13320,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857739319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1467829656
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467829653}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: bdfa072ea9ada46cb94eb8abaf38b6d3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1612183847
 GameObject:
   m_ObjectHideFlags: 0
@@ -13191,6 +13352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1612183849}
   - component: {fileID: 1612183848}
+  - component: {fileID: 1612183850}
   m_Layer: 0
   m_Name: HeavenEnemy3
   m_TagString: Untagged
@@ -13268,6 +13430,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857739319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1612183850
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612183847}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: acd0e63ae439b4f3a983adb2f421391f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1709169562
 GameObject:
   m_ObjectHideFlags: 0
@@ -14504,6 +14688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1942751460}
   - component: {fileID: 1942751459}
+  - component: {fileID: 1942751461}
   m_Layer: 0
   m_Name: HeavenEnemy6
   m_TagString: Untagged
@@ -14581,6 +14766,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857739319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1942751461
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942751458}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 1766ef1370f7449d4b2e549259d23586, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2034196862
 GameObject:
   m_ObjectHideFlags: 0
@@ -15144,6 +15351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2130198377}
   - component: {fileID: 2130198376}
+  - component: {fileID: 2130198378}
   m_Layer: 0
   m_Name: Demigod4
   m_TagString: Untagged
@@ -15221,6 +15429,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 857739319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2130198378
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130198375}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a73023dfd830b461082e976995c35063, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

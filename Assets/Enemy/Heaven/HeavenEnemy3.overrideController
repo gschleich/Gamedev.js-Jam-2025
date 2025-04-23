@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HeavenEnemy3
+  m_Controller: {fileID: 9100000, guid: 45e7742d998bf3043a42d800f475cf7e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 95188643ed2799c488bd68f040111f54, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5851748c1464a4bcb8297e0125f76cb7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 73e30f4d17f97784785b1345f81b1300, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 50698a6a6059446c6b6c5abb71c518bc, type: 2}
