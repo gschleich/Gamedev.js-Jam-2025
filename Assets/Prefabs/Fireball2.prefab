@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7017835553876190166}
   - component: {fileID: 3469412334984974796}
   - component: {fileID: 5577288253647647604}
-  - component: {fileID: 7978730987997869221}
+  - component: {fileID: 7819374847911187414}
   - component: {fileID: 255763526243868484}
   m_Layer: 0
   m_Name: Fireball2
@@ -112,8 +112,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!61 &7978730987997869221
-BoxCollider2D:
+--- !u!58 &7819374847911187414
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -142,22 +142,12 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 1}
-    newSize: {x: 2, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1.5, y: 1}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0.25, y: 0}
+  m_Radius: 0.25
 --- !u!114 &255763526243868484
 MonoBehaviour:
   m_ObjectHideFlags: 0
