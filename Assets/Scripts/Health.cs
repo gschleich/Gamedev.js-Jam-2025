@@ -1,5 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
@@ -11,10 +14,21 @@ public class Health : MonoBehaviour
     [SerializeField]
     private bool isDead = false;
 
+    [SerializeField] FloatingHealthbar healthbar;
+
+    // private void Awake()
+    // {
+    //     healthbar = GetComponentInChildren<FloatingHealthbar>();
+    // }
+
     public void InitializeHealth(int healthValue)
     {
         currentHealth = healthValue;
         maxHealth = healthValue;
+        if (healthbar != null)
+        {
+            healthbar.UpdateHealthbar(currentHealth, maxHealth);
+        }
         isDead = false;
     }
 
@@ -26,6 +40,10 @@ public class Health : MonoBehaviour
             return;
         
         currentHealth -= amount;
+        if (healthbar != null)
+        {
+            healthbar.UpdateHealthbar(currentHealth, maxHealth);
+        }
 
         if (currentHealth > 0)
         {

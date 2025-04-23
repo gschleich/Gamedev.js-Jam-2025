@@ -22,6 +22,14 @@ public class Projectile : MonoBehaviour
     {
         transform.position += (Vector3)moveDirection * speed * Time.deltaTime;
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }
 
 
