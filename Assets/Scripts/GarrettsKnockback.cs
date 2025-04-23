@@ -45,4 +45,12 @@ public class GarrettsKnockback : MonoBehaviour
     {
         return isKnockedBack;
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            ApplyKnockback(other.gameObject);
+        }
+    }
 }
