@@ -11,10 +11,12 @@ public class TopDownPlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public SpriteRenderer spriteRenderer;
     public Animator animator;
-    public Animator weaponAnimator;
 
-    public Transform childSpriteTransform;
-    public SpriteRenderer childSpriteRenderer;
+    public Animator[] weaponAnimators = new Animator[4];
+    public Transform[] weaponSpriteTransforms = new Transform[4];
+    public SpriteRenderer[] weaponSpriteRenderers = new SpriteRenderer[4];
+
+    private int currentWeaponIndex = 0;
 
     private Vector2 movement;
     private Vector2 lastMovementDirection;
@@ -31,6 +33,13 @@ public class TopDownPlayerMovement : MonoBehaviour
     private void Awake()
     {
         weaponParent = GetComponentInChildren<WeaponParent>();
+
+        // Only enable the assigned weapon
+        for (int i = 0; i < weaponSpriteTransforms.Length; i++)
+        {
+            if (weaponSpriteTransforms[i] != null)
+                weaponSpriteTransforms[i].gameObject.SetActive(i == currentWeaponIndex);
+        }
     }
 
     void Update()
@@ -47,7 +56,8 @@ public class TopDownPlayerMovement : MonoBehaviour
         // Mouse position & weapon rotation
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mouseWorldPos.z = 0f;
-        weaponParent.PointerPosition = mouseWorldPos;
+        if (weaponParent != null)
+            weaponParent.PointerPosition = mouseWorldPos;
 
         // Flip player sprite based on pointer position
         if (mouseWorldPos.x < transform.position.x && !isFacingLeft)
@@ -61,11 +71,20 @@ public class TopDownPlayerMovement : MonoBehaviour
             isFacingLeft = false;
         }
 
-        // Attack input
-        if (Input.GetMouseButtonDown(0) && attackCooldownTimer <= 0f)
+        // Weapon switching
+        if (Input.GetKeyDown(KeyCode.Alpha1)) SwitchWeapon(0);
+        if (Input.GetKeyDown(KeyCode.Alpha2)) SwitchWeapon(1);
+        if (Input.GetKeyDown(KeyCode.Alpha3)) SwitchWeapon(2);
+        if (Input.GetKeyDown(KeyCode.Alpha4)) SwitchWeapon(3);
+
+        // Hold-to-attack input
+        if (Input.GetMouseButton(0) && attackCooldownTimer <= 0f)
         {
-            weaponAnimator.SetTrigger("Attack");
-            attackCooldownTimer = attackCooldown;
+            if (weaponAnimators[currentWeaponIndex] != null)
+            {
+                weaponAnimators[currentWeaponIndex].SetTrigger("Attack");
+                attackCooldownTimer = attackCooldown;
+            }
         }
 
         // Decrease cooldown timers
@@ -130,5 +149,21 @@ public class TopDownPlayerMovement : MonoBehaviour
         {
             rb.MovePosition(rb.position + movement.normalized * moveSpeed * Time.fixedDeltaTime);
         }
+    }
+
+    private void SwitchWeapon(int index)
+    {
+        if (index < 0 || index >= weaponAnimators.Length || index == currentWeaponIndex)
+            return;
+
+        // Disable current weapon if valid
+        if (weaponSpriteTransforms[currentWeaponIndex] != null)
+            weaponSpriteTransforms[currentWeaponIndex].gameObject.SetActive(false);
+
+        // Enable new weapon if valid
+        if (weaponSpriteTransforms[index] != null)
+            weaponSpriteTransforms[index].gameObject.SetActive(true);
+
+        currentWeaponIndex = index;
     }
 }
