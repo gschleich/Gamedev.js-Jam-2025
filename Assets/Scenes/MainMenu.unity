@@ -1321,6 +1321,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 9abc973c0aedad84b99a3ac5bec05551, type: 3}
   - trackName: Heaven
     clip: {fileID: 8300000, guid: a02006a2c95fe5849aa851efb0d8b6d8, type: 3}
+  - trackName: GameOver
+    clip: {fileID: 8300000, guid: de6ca965e58220945b371c9fd058f895, type: 3}
 --- !u!114 &707971154
 MonoBehaviour:
   m_ObjectHideFlags: 0
