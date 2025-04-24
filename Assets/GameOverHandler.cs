@@ -10,7 +10,7 @@ public class GameOverHandler : MonoBehaviour
     {
         if (playerHealth != null)
         {
-            playerHealth.OnDeathWithReference.AddListener(OnPlayerDeath);
+            playerHealth.OnDeathWithReference.AddListener(HandleGameOver);
         }
 
         if (gameOverUI != null)
@@ -19,22 +19,22 @@ public class GameOverHandler : MonoBehaviour
         }
     }
 
-    private void OnPlayerDeath(GameObject sender)
+    private void HandleGameOver(GameObject sender)
     {
-        // Activate Game Over UI
+        // Show Game Over UI
         if (gameOverUI != null)
         {
             gameOverUI.SetActive(true);
         }
 
-        // Play Game Over music
-        if (!string.IsNullOrEmpty(gameOverMusicName))
+        // Play Game Over music (only if MusicManager is safely accessible)
+        if (MusicManager.Instance != null && !string.IsNullOrEmpty(gameOverMusicName))
         {
             MusicManager.Instance.PlayMusic(gameOverMusicName);
         }
         else
         {
-            Debug.LogWarning("GameOverHandler: Game Over music name not set!");
+            Debug.LogWarning("GameOverHandler: MusicManager or music name not available.");
         }
     }
 }

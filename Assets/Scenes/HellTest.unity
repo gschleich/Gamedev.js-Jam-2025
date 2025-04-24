@@ -4324,6 +4324,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1197587663}
   gameOverUI: {fileID: 1919493901}
+  gameOverMusicName: GameOver
 --- !u!1 &1029223984
 GameObject:
   m_ObjectHideFlags: 0
@@ -4519,7 +4520,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 009a32bbf87622f479589a5413a09eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circleOrigin: {fileID: 791549231}
+  circleOrigins:
+  - {fileID: 791549231}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  currentOriginIndex: 0
   radius: 1
 --- !u!1 &1089522225
 GameObject:
