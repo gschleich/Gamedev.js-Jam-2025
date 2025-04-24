@@ -1275,6 +1275,8 @@ MonoBehaviour:
   player: {fileID: 1197587656}
   moveSpeed: 3
   chaseRange: 5
+  separationRadius: 0.25
+  separationStrength: 1
 --- !u!114 &257013311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1633,6 +1635,8 @@ MonoBehaviour:
   player: {fileID: 1197587656}
   moveSpeed: 3
   chaseRange: 5
+  separationRadius: 0.25
+  separationStrength: 1
 --- !u!50 &273534723
 Rigidbody2D:
   serializedVersion: 5
@@ -1967,6 +1971,8 @@ MonoBehaviour:
   player: {fileID: 1197587656}
   moveSpeed: 3
   chaseRange: 5
+  separationRadius: 0.25
+  separationStrength: 1
 --- !u!114 &369155586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3251,7 +3257,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &620342344
 Transform:
   m_ObjectHideFlags: 0
@@ -17775,6 +17781,8 @@ MonoBehaviour:
   player: {fileID: 1197587656}
   moveSpeed: 3
   chaseRange: 5
+  separationRadius: 0.25
+  separationStrength: 1
 --- !u!50 &1363433060
 Rigidbody2D:
   serializedVersion: 5
@@ -19273,7 +19281,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1756852654
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20100,6 +20108,8 @@ MonoBehaviour:
   player: {fileID: 1197587656}
   moveSpeed: 3
   chaseRange: 5
+  separationRadius: 0.25
+  separationStrength: 1
 --- !u!114 &1888358664
 MonoBehaviour:
   m_ObjectHideFlags: 0
