@@ -11,6 +11,14 @@ public class EnemyAI : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private GarrettsKnockback knockback;
 
+    private bool isFalling = false;
+
+    public void EnableGravityFall()
+    {
+        isFalling = true;
+        rb.gravityScale = 1f;
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -21,7 +29,9 @@ public class EnemyAI : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Prevent AI movement while being knocked back
+        if (isFalling)
+            return;
+
         if (knockback != null && knockback.IsBeingKnockedBack())
             return;
 
@@ -31,26 +41,21 @@ public class EnemyAI : MonoBehaviour
 
             if (distanceToPlayer <= chaseRange)
             {
-                // Chase the player
                 Vector2 direction = (player.position - transform.position).normalized;
                 rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
 
-                // Flip to face player
                 if (player.position.x > transform.position.x)
-                    spriteRenderer.flipX = false; // face right
+                    spriteRenderer.flipX = false;
                 else
-                    spriteRenderer.flipX = true;  // face left
+                    spriteRenderer.flipX = true;
 
-                // Play walk animation if not already playing
                 if (!IsPlaying("Walk"))
                     animator.Play("Walk");
             }
             else
             {
-                // Go idle
                 rb.linearVelocity = Vector2.zero;
 
-                // Play idle animation if not already playing
                 if (!IsPlaying("Idle"))
                     animator.Play("Idle");
             }
