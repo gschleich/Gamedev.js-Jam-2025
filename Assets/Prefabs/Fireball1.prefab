@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 6272515059146065245}
   - component: {fileID: 323282113272640633}
   - component: {fileID: 6802028070194933484}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fireball1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -190,11 +190,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 1
   maxHealth: 1
+  isDead: 0
+  healthbar: {fileID: 0}
+  deathDustPrefab: {fileID: 0}
   OnHitWithReference:
     m_PersistentCalls:
       m_Calls: []
   OnDeathWithReference:
     m_PersistentCalls:
       m_Calls: []
-  isDead: 0
-  healthbar: {fileID: 0}
