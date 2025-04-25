@@ -18289,7 +18289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1197587656}
   projectilePrefab: {fileID: 6904007218877049792, guid: fba27670731ac664eb094c4a42284c2b, type: 3}
-  firePoint: {fileID: 0}
+  firePoint: {fileID: 199580117}
   fireCooldown: 2
   shootRange: 8
 --- !u!50 &1494747660
