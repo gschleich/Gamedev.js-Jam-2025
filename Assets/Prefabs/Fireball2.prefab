@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 5577288253647647604}
   - component: {fileID: 7819374847911187414}
   - component: {fileID: 255763526243868484}
+  - component: {fileID: 1208744649657889106}
+  - component: {fileID: 7121726176563554418}
   m_Layer: 7
   m_Name: Fireball2
   m_TagString: Enemy
@@ -160,4 +162,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3838d8b27949894191ab5fb235de55f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 1
+  damageAmount: 2
+--- !u!114 &1208744649657889106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6904007218877049792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b3bf8e6c497aa4cb0223e2595e1f43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+--- !u!114 &7121726176563554418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6904007218877049792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 077813442e376f842b8b2677082d128b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 1
+  maxHealth: 1
+  isDead: 0
+  healthbar: {fileID: 0}
+  deathDustPrefab: {fileID: 0}
+  OnHitWithReference:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeathWithReference:
+    m_PersistentCalls:
+      m_Calls: []
