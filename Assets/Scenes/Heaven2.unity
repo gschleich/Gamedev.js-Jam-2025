@@ -16661,6 +16661,10 @@ PrefabInstance:
       propertyPath: transition
       value: 
       objectReference: {fileID: 133287693}
+    - target: {fileID: 3864772149094620367, guid: 8548072c831564fdbbbb637f17918f91, type: 3}
+      propertyPath: sceneToLoad
+      value: Hell3
+      objectReference: {fileID: 0}
     - target: {fileID: 5717485183913682865, guid: 8548072c831564fdbbbb637f17918f91, type: 3}
       propertyPath: m_Name
       value: HellPortalTest
