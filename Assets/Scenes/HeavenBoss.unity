@@ -2191,7 +2191,7 @@ MonoBehaviour:
   OnDeathWithReference:
     m_PersistentCalls:
       m_Calls: []
-  playerMovement: {fileID: 2001167952}
+  playerMovement: {fileID: 0}
 --- !u!114 &773406850
 MonoBehaviour:
   m_ObjectHideFlags: 0

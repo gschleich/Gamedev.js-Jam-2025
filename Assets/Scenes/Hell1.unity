@@ -1017,7 +1017,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
     - target: {fileID: 2519231083822100283, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
       propertyPath: player
@@ -1027,6 +1027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HellEnemy2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4724308541173848151, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 5829443048417566158, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.6092927
@@ -1080,6 +1084,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
+--- !u!4 &451247153 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5829443048417566158, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
+  m_PrefabInstance: {fileID: 451247152}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &457192735
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,6 +1123,13 @@ Transform:
   - {fileID: 369155580}
   - {fileID: 257013305}
   - {fileID: 1247317963}
+  - {fileID: 803962471}
+  - {fileID: 1695214827}
+  - {fileID: 1543788342}
+  - {fileID: 451247153}
+  - {fileID: 1904702873}
+  - {fileID: 1393383241}
+  - {fileID: 735952727}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
@@ -1556,12 +1572,16 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
     - target: {fileID: 1513858902952649631, guid: eac00ab82a9854ea3adfd95bfe3032a7, type: 3}
       propertyPath: m_Name
       value: HellEnemy3
       objectReference: {fileID: 0}
+    - target: {fileID: 2232964831624171039, guid: eac00ab82a9854ea3adfd95bfe3032a7, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 3848934572044230114, guid: eac00ab82a9854ea3adfd95bfe3032a7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.0157704
@@ -1619,6 +1639,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eac00ab82a9854ea3adfd95bfe3032a7, type: 3}
+--- !u!4 &735952727 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3848934572044230114, guid: eac00ab82a9854ea3adfd95bfe3032a7, type: 3}
+  m_PrefabInstance: {fileID: 735952726}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &791549230
 GameObject:
   m_ObjectHideFlags: 0
@@ -1688,7 +1713,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
     - target: {fileID: 2519231083822100283, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
       propertyPath: player
@@ -1698,6 +1723,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HellEnemy2
       objectReference: {fileID: 0}
+    - target: {fileID: 4724308541173848151, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 5829443048417566158, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.8412337
@@ -1751,6 +1780,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
+--- !u!4 &803962471 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5829443048417566158, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
+  m_PrefabInstance: {fileID: 803962470}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &806207200
 GameObject:
   m_ObjectHideFlags: 0
@@ -4999,7 +5033,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 21
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5009,7 +5043,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 19
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -6058,10 +6092,10 @@ Tilemap:
   - m_RefCount: 9
     m_Data: {fileID: 11400000, guid: 378154132b176e640970124ba3bcf77e, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 1
-    m_Data: {fileID: 217259691, guid: 72936b00016e8cc4794f9bead91a4c68, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1810998879, guid: 72936b00016e8cc4794f9bead91a4c68, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 9
     m_Data: {fileID: -316601908, guid: 72936b00016e8cc4794f9bead91a4c68, type: 3}
   - m_RefCount: 9
@@ -6096,10 +6130,10 @@ Tilemap:
     m_Data: {fileID: -736649954, guid: 72936b00016e8cc4794f9bead91a4c68, type: 3}
   - m_RefCount: 9
     m_Data: {fileID: -672997015, guid: 72936b00016e8cc4794f9bead91a4c68, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 217259691, guid: 72936b00016e8cc4794f9bead91a4c68, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -1810998879, guid: 72936b00016e8cc4794f9bead91a4c68, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -1008797354, guid: 72936b00016e8cc4794f9bead91a4c68, type: 3}
   - m_RefCount: 9
@@ -15339,7 +15373,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
     - target: {fileID: 2854374573213494779, guid: c89bb6d70d0814abfa698b74767b16ed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15393,11 +15427,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: HellEnemy6
       objectReference: {fileID: 0}
+    - target: {fileID: 6234044167557304628, guid: c89bb6d70d0814abfa698b74767b16ed, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c89bb6d70d0814abfa698b74767b16ed, type: 3}
+--- !u!4 &1393383241 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2854374573213494779, guid: c89bb6d70d0814abfa698b74767b16ed, type: 3}
+  m_PrefabInstance: {fileID: 1393383240}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1417563412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15657,7 +15700,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
     - target: {fileID: 2519231083822100283, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
       propertyPath: player
@@ -15667,6 +15710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HellEnemy2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4724308541173848151, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 5829443048417566158, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.52
@@ -15720,6 +15767,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
+--- !u!4 &1543788342 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5829443048417566158, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
+  m_PrefabInstance: {fileID: 1543788341}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1587280643
 GameObject:
   m_ObjectHideFlags: 0
@@ -15987,7 +16039,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
     - target: {fileID: 2519231083822100283, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
       propertyPath: player
@@ -15997,6 +16049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HellEnemy2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4724308541173848151, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 5829443048417566158, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.6530275
@@ -16050,6 +16106,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
+--- !u!4 &1695214827 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5829443048417566158, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
+  m_PrefabInstance: {fileID: 1695214826}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1711207186
 GameObject:
   m_ObjectHideFlags: 0
@@ -16796,7 +16857,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
     - target: {fileID: 2519231083822100283, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
       propertyPath: player
@@ -16806,6 +16867,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HellEnemy2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4724308541173848151, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 5829443048417566158, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.1454105
@@ -16859,6 +16924,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
+--- !u!4 &1904702873 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5829443048417566158, guid: ae34df148fde24569b0b08a37e66f7d0, type: 3}
+  m_PrefabInstance: {fileID: 1904702872}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1919493901
 GameObject:
   m_ObjectHideFlags: 0
@@ -17581,12 +17651,5 @@ SceneRoots:
   - {fileID: 457192736}
   - {fileID: 1177217746}
   - {fileID: 980817458}
-  - {fileID: 1089522227}
   - {fileID: 1153426258}
-  - {fileID: 803962470}
-  - {fileID: 1695214826}
-  - {fileID: 1543788341}
-  - {fileID: 451247152}
-  - {fileID: 1904702872}
-  - {fileID: 1393383240}
-  - {fileID: 735952726}
+  - {fileID: 1089522227}

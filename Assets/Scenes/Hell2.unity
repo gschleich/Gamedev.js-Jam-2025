@@ -905,7 +905,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
     - target: {fileID: 999385132255923184, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
       propertyPath: m_LocalPosition.x
@@ -955,6 +955,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7912042248586205099, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 8471359976926661188, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
       propertyPath: player
       value: 
@@ -972,14 +976,23 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
+--- !u!4 &338871288 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 999385132255923184, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
+  m_PrefabInstance: {fileID: 338871287}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &393602634
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
+    - target: {fileID: 2884617490033577922, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 4130212808545086408, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
       propertyPath: m_Name
       value: HellEnemy1 (3)
@@ -1045,6 +1058,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+--- !u!4 &393602635 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6610813278158368944, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+  m_PrefabInstance: {fileID: 393602634}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &412727487
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,7 +1249,21 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1984895374}
+  - {fileID: 849392102}
+  - {fileID: 393602635}
+  - {fileID: 1925635498}
+  - {fileID: 1873840887}
+  - {fileID: 1571972269}
+  - {fileID: 617100233}
+  - {fileID: 644309385}
+  - {fileID: 1583193530}
+  - {fileID: 1757554750}
+  - {fileID: 338871288}
+  - {fileID: 1042861392}
+  - {fileID: 1029794078}
+  - {fileID: 1902226858}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
@@ -1409,7 +1441,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
     - target: {fileID: 1184539104649743303, guid: 170224b91778a4abb8931602d724d508, type: 3}
       propertyPath: m_Name
@@ -1459,6 +1491,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4738497287972360587, guid: 170224b91778a4abb8931602d724d508, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 7176667881103113155, guid: 170224b91778a4abb8931602d724d508, type: 3}
       propertyPath: player
       value: 
@@ -1476,6 +1512,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 170224b91778a4abb8931602d724d508, type: 3}
+--- !u!4 &617100233 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1791225139245910796, guid: 170224b91778a4abb8931602d724d508, type: 3}
+  m_PrefabInstance: {fileID: 617100232}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1711,7 +1752,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
     - target: {fileID: 1184539104649743303, guid: 170224b91778a4abb8931602d724d508, type: 3}
       propertyPath: m_Name
@@ -1761,6 +1802,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4738497287972360587, guid: 170224b91778a4abb8931602d724d508, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 7176667881103113155, guid: 170224b91778a4abb8931602d724d508, type: 3}
       propertyPath: player
       value: 
@@ -1778,6 +1823,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 170224b91778a4abb8931602d724d508, type: 3}
+--- !u!4 &644309385 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1791225139245910796, guid: 170224b91778a4abb8931602d724d508, type: 3}
+  m_PrefabInstance: {fileID: 644309384}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &719757331
 GameObject:
   m_ObjectHideFlags: 0
@@ -1919,8 +1969,12 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
+    - target: {fileID: 2884617490033577922, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 4130212808545086408, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
       propertyPath: m_Name
       value: HellEnemy1 (1)
@@ -1986,6 +2040,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+--- !u!4 &849392102 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6610813278158368944, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+  m_PrefabInstance: {fileID: 849392101}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &871751935
 GameObject:
   m_ObjectHideFlags: 0
@@ -2283,8 +2342,12 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
+    - target: {fileID: 2884617490033577922, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 4130212808545086408, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
       propertyPath: m_Name
       value: HellEnemy1 (6)
@@ -2350,14 +2413,23 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+--- !u!4 &1029794078 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6610813278158368944, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+  m_PrefabInstance: {fileID: 1029794077}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1042861391
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
+    - target: {fileID: 2884617490033577922, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 4130212808545086408, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
       propertyPath: m_Name
       value: HellEnemy1 (5)
@@ -2423,6 +2495,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+--- !u!4 &1042861392 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6610813278158368944, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+  m_PrefabInstance: {fileID: 1042861391}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1088899855
 GameObject:
   m_ObjectHideFlags: 0
@@ -16496,7 +16573,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
     - target: {fileID: 999385132255923184, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16546,6 +16623,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7912042248586205099, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 8471359976926661188, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
       propertyPath: player
       value: 
@@ -16563,13 +16644,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
+--- !u!4 &1571972269 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 999385132255923184, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
+  m_PrefabInstance: {fileID: 1571972268}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1583193529
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
     - target: {fileID: 1184539104649743303, guid: 170224b91778a4abb8931602d724d508, type: 3}
       propertyPath: m_Name
@@ -16619,6 +16705,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4738497287972360587, guid: 170224b91778a4abb8931602d724d508, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 7176667881103113155, guid: 170224b91778a4abb8931602d724d508, type: 3}
       propertyPath: player
       value: 
@@ -16636,6 +16726,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 170224b91778a4abb8931602d724d508, type: 3}
+--- !u!4 &1583193530 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1791225139245910796, guid: 170224b91778a4abb8931602d724d508, type: 3}
+  m_PrefabInstance: {fileID: 1583193529}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1587280643
 GameObject:
   m_ObjectHideFlags: 0
@@ -17354,7 +17449,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
     - target: {fileID: 999385132255923184, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17404,6 +17499,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7912042248586205099, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 8471359976926661188, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
       propertyPath: player
       value: 
@@ -17421,6 +17520,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
+--- !u!4 &1757554750 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 999385132255923184, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
+  m_PrefabInstance: {fileID: 1757554749}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1759787841
 GameObject:
   m_ObjectHideFlags: 0
@@ -17711,7 +17815,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
     - target: {fileID: 999385132255923184, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17761,6 +17865,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7912042248586205099, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 8471359976926661188, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
       propertyPath: player
       value: 
@@ -17778,14 +17886,23 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
+--- !u!4 &1873840887 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 999385132255923184, guid: 00937b02e7bf9497b8df4ff64e51c242, type: 3}
+  m_PrefabInstance: {fileID: 1873840886}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1902226857
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
+    - target: {fileID: 2884617490033577922, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 4130212808545086408, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
       propertyPath: m_Name
       value: HellEnemy1 (7)
@@ -17847,6 +17964,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+--- !u!4 &1902226858 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6610813278158368944, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+  m_PrefabInstance: {fileID: 1902226857}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1919493901
 GameObject:
   m_ObjectHideFlags: 0
@@ -17891,8 +18013,12 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
+    - target: {fileID: 2884617490033577922, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 4130212808545086408, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
       propertyPath: m_Name
       value: HellEnemy1 (4)
@@ -17958,6 +18084,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+--- !u!4 &1925635498 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6610813278158368944, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+  m_PrefabInstance: {fileID: 1925635497}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1968049041
 GameObject:
   m_ObjectHideFlags: 0
@@ -18051,8 +18182,12 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 457192736}
     m_Modifications:
+    - target: {fileID: 2884617490033577922, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1197587657}
     - target: {fileID: 4130212808545086408, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
       propertyPath: m_Name
       value: HellEnemy1
@@ -18118,6 +18253,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+--- !u!4 &1984895374 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6610813278158368944, guid: 044156ad238e7c141a8509168bf1b999, type: 3}
+  m_PrefabInstance: {fileID: 1984895373}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2010290618
 GameObject:
   m_ObjectHideFlags: 0
@@ -18422,17 +18562,3 @@ SceneRoots:
   - {fileID: 1177217746}
   - {fileID: 980817458}
   - {fileID: 1089522227}
-  - {fileID: 1984895373}
-  - {fileID: 849392101}
-  - {fileID: 393602634}
-  - {fileID: 1925635497}
-  - {fileID: 1873840886}
-  - {fileID: 1571972268}
-  - {fileID: 617100232}
-  - {fileID: 644309384}
-  - {fileID: 1583193529}
-  - {fileID: 1757554749}
-  - {fileID: 338871287}
-  - {fileID: 1042861391}
-  - {fileID: 1029794077}
-  - {fileID: 1902226857}
