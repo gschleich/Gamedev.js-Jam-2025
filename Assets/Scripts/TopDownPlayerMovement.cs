@@ -192,6 +192,7 @@ public class TopDownPlayerMovement : MonoBehaviour
         if (meter.anchoredPosition.x <= -450f || meter.anchoredPosition.x >= 450f)
         {
             gameOverUI.SetActive(true);
+            Destroy(gameObject);
         }
     }
 
