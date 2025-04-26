@@ -1328,6 +1328,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 0508ebd4a7a60a342a2cc7eb495a230a, type: 3}
   - trackName: HeavenBoss
     clip: {fileID: 8300000, guid: 57a5e769434890a4b998348a6857b505, type: 3}
+  - trackName: GameWon
+    clip: {fileID: 8300000, guid: d583467c20dca384483b67bfc1872863, type: 3}
 --- !u!114 &707971154
 MonoBehaviour:
   m_ObjectHideFlags: 0
