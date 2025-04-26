@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 7912042248586205099}
   - component: {fileID: 3256794697957897357}
   m_Layer: 0
-  m_Name: HellEnemy8
+  m_Name: HellEnemy8BOSS
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -280,7 +280,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 6904007218877049792, guid: fba27670731ac664eb094c4a42284c2b, type: 3}
   firePoint: {fileID: 5645314491632728388}
   fireCooldown: 2
-  shootRange: 8
+  shootRange: 100
 --- !u!114 &7912042248586205099
 MonoBehaviour:
   m_ObjectHideFlags: 0
