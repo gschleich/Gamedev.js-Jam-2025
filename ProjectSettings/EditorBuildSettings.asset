@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 39fbc321c2cd7d043a7bf1e6e32c735c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HellTest.unity
     guid: fc42bba4ffb7fec4eb11f22fb23083a9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HeavenTest.unity
     guid: b8b2ecba38fd51c4082bc66ff1e9bf35
   - enabled: 1

@@ -1879,7 +1879,6 @@ GameObject:
   - component: {fileID: 944261661}
   - component: {fileID: 944261663}
   - component: {fileID: 944261662}
-  - component: {fileID: 944261664}
   m_Layer: 5
   m_Name: GameOverText
   m_TagString: Untagged
@@ -1944,20 +1943,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944261660}
   m_CullTransparentMesh: 1
---- !u!114 &944261664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 944261660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d53623df541c44f868bffe42caa340d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amplitude: 50
-  frequency: 1
 --- !u!1 &980817454
 GameObject:
   m_ObjectHideFlags: 0
@@ -17435,7 +17420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6501411953966218969, guid: a4a8a95237577f349a8f17dee6cc1cfc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8526262123962354549, guid: a4a8a95237577f349a8f17dee6cc1cfc, type: 3}
       propertyPath: m_LocalPosition.x
