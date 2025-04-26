@@ -52,6 +52,7 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         VolumeManager.Save();
+        TopDownPlayerMovement.ResetMeter();
         SceneManager.LoadScene("MainMenu");
     }
 

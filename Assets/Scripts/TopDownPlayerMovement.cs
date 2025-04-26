@@ -31,8 +31,8 @@ public class TopDownPlayerMovement : MonoBehaviour
 
     private WeaponParent weaponParent;
 
-    public RectTransform meter;  // Reference to the meter (UI element)
-    public GameObject gameOverUI;  // Reference to the GameOver UI
+    public RectTransform meter; // Reference to the meter (UI element)
+    public GameObject gameOverUI; // Reference to the GameOver UI
 
     private const string MeterPositionKey = "MeterPosition";
 
@@ -183,23 +183,30 @@ public class TopDownPlayerMovement : MonoBehaviour
     // Method to call when an enemy is destroyed
     public void UpdateMeter(int weaponIndex)
     {
-        float moveAmount = (weaponIndex == 0) ? 10f : -10f;  // +10 for Weapon1, -10 for Weapon2
-        meter.anchoredPosition += new Vector2(moveAmount, 0);  // Move meter on x-axis
+        float moveAmount = (weaponIndex == 0) ? 90f : -90f;
+        meter.anchoredPosition += new Vector2(moveAmount, 0);
 
         // Save the new meter position to PlayerPrefs
         PlayerPrefs.SetFloat(MeterPositionKey, meter.anchoredPosition.x);
-        PlayerPrefs.Save();  // Make sure the changes are saved
+        PlayerPrefs.Save();
 
         // Check if GameOver condition is met
         if (meter.anchoredPosition.x <= -450f || meter.anchoredPosition.x >= 450f)
         {
-            gameOverUI.SetActive(true);  // Show GameOver UI
+            gameOverUI.SetActive(true);
         }
+    }
+
+    public static void ResetMeter()
+    {
+        PlayerPrefs.DeleteKey(MeterPositionKey);
+        PlayerPrefs.Save();
     }
 
     private void OnApplicationQuit()
     {
-        // Optional: Clear the saved meter position when the application quits
+        // Optional: Clear the saved meter position when quitting the app
         PlayerPrefs.DeleteKey(MeterPositionKey);
+        PlayerPrefs.Save();
     }
 }
