@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 2519231083822100283}
   - component: {fileID: 6291565912148805232}
   - component: {fileID: 8694406869276490658}
+  - component: {fileID: 3202047691420573327}
   m_Layer: 7
   m_Name: HellEnemy2
   m_TagString: Enemy
@@ -354,6 +355,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
+--- !u!114 &3202047691420573327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3477441330087496501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1225604c8c8574d4397e89962131964f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knockbackForce: 5
+  knockbackDuration: 0.2
 --- !u!1 &5967109880793715920
 GameObject:
   m_ObjectHideFlags: 0
