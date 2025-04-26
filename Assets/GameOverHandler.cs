@@ -21,8 +21,8 @@ public class GameOverHandler : MonoBehaviour
 
     private void HandleGameOver(GameObject sender)
     {
-        // Show Game Over UI
-        if (gameOverUI != null)
+        // Only show Game Over UI if the game has not been won yet
+        if (!GameWonHandler.IsGameWon && gameOverUI != null)
         {
             gameOverUI.SetActive(true);
         }

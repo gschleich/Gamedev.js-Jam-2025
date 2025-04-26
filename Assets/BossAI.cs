@@ -14,7 +14,8 @@ public class BossAI : MonoBehaviour
 
     [Header("Teleport and Fire")]
     public GameObject[] teleportPoints;
-    public GameObject[] firePoints;
+    public GameObject[] firePoints; // Stage 1 fire points
+    public GameObject[] stage2FirePoints; // Stage 2 fire points (additional)
     public GameObject projectilePrefab;
     public float shootRange = 8f;
     public float attackCooldown = 2f;
@@ -98,9 +99,11 @@ public class BossAI : MonoBehaviour
             float dist = Vector2.Distance(transform.position, player.position);
             if (dist <= attackRange && !hasAttacked)
             {
-                bossAnimator.Play("Attack");
-                ShootProjectiles(); // or you could trigger a melee attack
                 hasAttacked = true;
+                bossAnimator.Play("Attack");
+                ShootProjectiles(); // move this BEFORE the delay
+                yield return new WaitForSeconds(0.5f); // wait for animation
+                bossAnimator.Play("Idle");
                 yield return new WaitForSeconds(attackCooldown);
                 hasAttacked = false;
             }
@@ -111,25 +114,33 @@ public class BossAI : MonoBehaviour
 
     private void ShootProjectiles()
     {
-        float distance = Vector2.Distance(transform.position, player.position);
-        if (distance <= shootRange)
+        // Always shoot from the original fire points
+        ShootFromFirePoints(firePoints);
+
+        // If in stage 2, shoot from additional fire points as well
+        if (isSecondPhase)
         {
-            foreach (var firePoint in firePoints)
+            ShootFromFirePoints(stage2FirePoints);
+        }
+
+        // Flip boss to face player
+        Vector3 scale = transform.localScale;
+        scale.x = player.position.x > transform.position.x ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
+        transform.localScale = scale;
+    }
+
+    private void ShootFromFirePoints(GameObject[] points)
+    {
+        foreach (var firePoint in points)
+        {
+            Vector2 direction = (player.position - firePoint.transform.position).normalized;
+
+            GameObject proj = Instantiate(projectilePrefab, firePoint.transform.position, Quaternion.identity);
+            Projectile projectile = proj.GetComponent<Projectile>();
+            if (projectile != null)
             {
-                Vector2 direction = (player.position - firePoint.transform.position).normalized;
-
-                GameObject proj = Instantiate(projectilePrefab, firePoint.transform.position, Quaternion.identity);
-                Projectile projectile = proj.GetComponent<Projectile>();
-                if (projectile != null)
-                {
-                    projectile.SetDirection(direction);
-                }
+                projectile.SetDirection(direction);
             }
-
-            // Flip boss to face player
-            Vector3 scale = transform.localScale;
-            scale.x = player.position.x > transform.position.x ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
-            transform.localScale = scale;
         }
     }
 
