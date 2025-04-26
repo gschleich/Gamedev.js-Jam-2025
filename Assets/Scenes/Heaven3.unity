@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6829950877206571901, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     - target: {fileID: 7505258439114896113, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
       propertyPath: m_Name
       value: HeavenEnemy6 (3)
@@ -533,6 +537,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2001167957}
+    - target: {fileID: 8824861648968687502, guid: fcbfe06f73684438594948062706ae9f, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -677,6 +685,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2001167957}
+    - target: {fileID: 8824861648968687502, guid: fcbfe06f73684438594948062706ae9f, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -914,6 +926,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 258963963462188998, guid: 6736bc6c4a41a403db8741bb12241111, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     - target: {fileID: 1683070519568227090, guid: 6736bc6c4a41a403db8741bb12241111, type: 3}
       propertyPath: m_Name
       value: HeavenEnemy3 (1)
@@ -983,6 +999,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2326878050865298719, guid: c4cb14e87a4cd43c59bffddc425535a9, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     - target: {fileID: 2983637939569957825, guid: c4cb14e87a4cd43c59bffddc425535a9, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1702,6 +1722,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2001167957}
+    - target: {fileID: 8518442101935743420, guid: 519926db340694749906d38425cd3fbe, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1799,6 +1823,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6829950877206571901, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     - target: {fileID: 7505258439114896113, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
       propertyPath: m_Name
       value: HeavenEnemy6 (1)
@@ -2113,6 +2141,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2001167957}
+    - target: {fileID: 8518442101935743420, guid: 519926db340694749906d38425cd3fbe, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2567,6 +2599,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2326878050865298719, guid: c4cb14e87a4cd43c59bffddc425535a9, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     - target: {fileID: 2983637939569957825, guid: c4cb14e87a4cd43c59bffddc425535a9, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2842,6 +2878,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2001167957}
+    - target: {fileID: 8518442101935743420, guid: 519926db340694749906d38425cd3fbe, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5946,6 +5986,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2326878050865298719, guid: c4cb14e87a4cd43c59bffddc425535a9, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     - target: {fileID: 2983637939569957825, guid: c4cb14e87a4cd43c59bffddc425535a9, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -6063,6 +6107,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6829950877206571901, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     - target: {fileID: 7505258439114896113, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
       propertyPath: m_Name
       value: HeavenEnemy6 (5)
@@ -14785,6 +14833,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2326878050865298719, guid: c4cb14e87a4cd43c59bffddc425535a9, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     - target: {fileID: 2983637939569957825, guid: c4cb14e87a4cd43c59bffddc425535a9, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -14977,6 +15029,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6829950877206571901, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     - target: {fileID: 7505258439114896113, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
       propertyPath: m_Name
       value: HeavenEnemy6 (2)
@@ -15077,6 +15133,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6829950877206571901, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     - target: {fileID: 7505258439114896113, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
       propertyPath: m_Name
       value: HeavenEnemy6
@@ -15205,6 +15265,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 258963963462188998, guid: 6736bc6c4a41a403db8741bb12241111, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     - target: {fileID: 1683070519568227090, guid: 6736bc6c4a41a403db8741bb12241111, type: 3}
       propertyPath: m_Name
       value: HeavenEnemy3
@@ -15562,6 +15626,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2326878050865298719, guid: c4cb14e87a4cd43c59bffddc425535a9, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     - target: {fileID: 2983637939569957825, guid: c4cb14e87a4cd43c59bffddc425535a9, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -17342,6 +17410,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6829950877206571901, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     - target: {fileID: 7505258439114896113, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
       propertyPath: m_Name
       value: HeavenEnemy6 (4)
