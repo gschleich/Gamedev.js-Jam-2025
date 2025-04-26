@@ -440,7 +440,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 857739319}
     m_Modifications:
     - target: {fileID: 2438978632339308509, guid: fcbfe06f73684438594948062706ae9f, type: 3}
       propertyPath: m_AnchorMax.x
@@ -507,6 +507,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcbfe06f73684438594948062706ae9f, type: 3}
+--- !u!4 &267820021 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6449553525103125881, guid: fcbfe06f73684438594948062706ae9f, type: 3}
+  m_PrefabInstance: {fileID: 267820020}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &348853738
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,7 +778,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 857739319}
     m_Modifications:
     - target: {fileID: 2438978632339308509, guid: fcbfe06f73684438594948062706ae9f, type: 3}
       propertyPath: m_AnchorMax.x
@@ -840,6 +845,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcbfe06f73684438594948062706ae9f, type: 3}
+--- !u!4 &517647564 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6449553525103125881, guid: fcbfe06f73684438594948062706ae9f, type: 3}
+  m_PrefabInstance: {fileID: 517647563}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1530,7 +1540,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 857739319}
     m_Modifications:
     - target: {fileID: 4045981841481617656, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1580,6 +1590,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6829950877206571901, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 2001167952}
     - target: {fileID: 7505258439114896113, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
       propertyPath: m_Name
       value: HeavenEnemy6
@@ -1593,6 +1607,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
+--- !u!4 &828281510 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4045981841481617656, guid: 4a4c19ee43a544d649451d0105abddfd, type: 3}
+  m_PrefabInstance: {fileID: 828281509}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &846116064
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,6 +1678,10 @@ Transform:
   - {fileID: 128101264}
   - {fileID: 1480758848}
   - {fileID: 1457384856}
+  - {fileID: 828281510}
+  - {fileID: 517647564}
+  - {fileID: 267820021}
+  - {fileID: 1932449779}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &871751935
@@ -15491,7 +15514,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 857739319}
     m_Modifications:
     - target: {fileID: 945278565521399665, guid: 2dc299bb4988342ecae49e5b009859cd, type: 3}
       propertyPath: m_Name
@@ -15558,6 +15581,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2dc299bb4988342ecae49e5b009859cd, type: 3}
+--- !u!4 &1932449779 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2547935500403768361, guid: 2dc299bb4988342ecae49e5b009859cd, type: 3}
+  m_PrefabInstance: {fileID: 1932449778}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1956627227 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2547935500403768361, guid: 2dc299bb4988342ecae49e5b009859cd, type: 3}
@@ -17065,7 +17093,3 @@ SceneRoots:
   - {fileID: 2096172755}
   - {fileID: 2001891775}
   - {fileID: 2080200320}
-  - {fileID: 828281509}
-  - {fileID: 517647563}
-  - {fileID: 267820020}
-  - {fileID: 1932449778}
