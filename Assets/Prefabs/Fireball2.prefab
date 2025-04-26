@@ -199,3 +199,4 @@ MonoBehaviour:
   OnDeathWithReference:
     m_PersistentCalls:
       m_Calls: []
+  playerMovement: {fileID: 0}
