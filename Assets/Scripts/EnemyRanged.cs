@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class EnemyRanged : MonoBehaviour
 {
-    public Transform player;
     public GameObject projectilePrefab;
     public Transform firePoint;
 
@@ -10,6 +9,21 @@ public class EnemyRanged : MonoBehaviour
     public float shootRange = 8f;
 
     private float fireTimer;
+    private Transform player;
+
+    void Start()
+    {
+        // Automatically find the player in the scene by tag
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
+        {
+            player = playerObj.transform;
+        }
+        else
+        {
+            Debug.LogWarning("EnemyRanged: No GameObject with tag 'Player' found in the scene.");
+        }
+    }
 
     void Update()
     {
@@ -53,4 +67,3 @@ public class EnemyRanged : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, shootRange);
     }
 }
-
