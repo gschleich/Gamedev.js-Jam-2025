@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,6 +114,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -121,10 +134,10 @@ TextureImporter:
       name: HeavenSpawnAnim_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 9
-        width: 30
-        height: 30
+        x: 0
+        y: 0
+        width: 52
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,10 +156,10 @@ TextureImporter:
       name: HeavenSpawnAnim_1
       rect:
         serializedVersion: 2
-        x: 53
-        y: 5
-        width: 38
-        height: 38
+        x: 52
+        y: 0
+        width: 52
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +178,10 @@ TextureImporter:
       name: HeavenSpawnAnim_2
       rect:
         serializedVersion: 2
-        x: 97
-        y: 1
-        width: 46
-        height: 46
+        x: 104
+        y: 0
+        width: 52
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +200,10 @@ TextureImporter:
       name: HeavenSpawnAnim_3
       rect:
         serializedVersion: 2
-        x: 143
+        x: 156
         y: 0
-        width: 50
-        height: 48
+        width: 52
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,77 +218,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: HeavenSpawnAnim_4
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 1
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cff29bbd938de6dd0800000000000000
-      internalID: -2490815800878223364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeavenSpawnAnim_5
-      rect:
-        serializedVersion: 2
-        x: 245
-        y: 5
-        width: 38
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60147687996317170800000000000000
-      internalID: 8174374831432089862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeavenSpawnAnim_6
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 9
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b548d9bf87ff55060800000000000000
-      internalID: 6941735295744050267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7b001033d49074f44bfcc18e3887cafb
     internalID: 0
     vertices: []
     indices: 
@@ -289,9 +236,6 @@ TextureImporter:
       HeavenSpawnAnim_1: 4844803954468048438
       HeavenSpawnAnim_2: 1014048436066576579
       HeavenSpawnAnim_3: -863068117988200908
-      HeavenSpawnAnim_4: -2490815800878223364
-      HeavenSpawnAnim_5: 8174374831432089862
-      HeavenSpawnAnim_6: 6941735295744050267
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

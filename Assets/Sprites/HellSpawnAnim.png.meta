@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,6 +114,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -121,20 +134,20 @@ TextureImporter:
       name: HellSpawnAnim_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 9
-        width: 30
-        height: 30
+        x: 0
+        y: 0
+        width: 52
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e1a205298e6c5b7a0800000000000000
-      internalID: -6361960196401518050
+      spriteID: 5143cb603f5259d4cb4c87f1bdbbc08e
+      internalID: 810096469
       vertices: []
       indices: 
       edges: []
@@ -143,20 +156,20 @@ TextureImporter:
       name: HellSpawnAnim_1
       rect:
         serializedVersion: 2
-        x: 53
-        y: 5
-        width: 38
-        height: 38
+        x: 52
+        y: 0
+        width: 52
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6d898eb144b9face0800000000000000
-      internalID: -1391723043005884202
+      spriteID: d9ceb4b319dad5745a5326194d4948c2
+      internalID: -1529308707
       vertices: []
       indices: 
       edges: []
@@ -165,20 +178,20 @@ TextureImporter:
       name: HellSpawnAnim_2
       rect:
         serializedVersion: 2
-        x: 97
-        y: 1
-        width: 46
-        height: 46
+        x: 104
+        y: 0
+        width: 52
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1d87a22bb357801c0800000000000000
-      internalID: -4537247725323126575
+      spriteID: a550ccd095608484c88995f5d4186466
+      internalID: -832570710
       vertices: []
       indices: 
       edges: []
@@ -187,86 +200,20 @@ TextureImporter:
       name: HellSpawnAnim_3
       rect:
         serializedVersion: 2
-        x: 143
+        x: 156
         y: 0
-        width: 50
-        height: 48
+        width: 52
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5ebd3b94596143060800000000000000
-      internalID: 6932190556872498149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HellSpawnAnim_4
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 1
-        width: 46
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cdb11109a6f4f8600800000000000000
-      internalID: 472683804999359452
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HellSpawnAnim_5
-      rect:
-        serializedVersion: 2
-        x: 245
-        y: 5
-        width: 38
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7204d4e438de2b4e0800000000000000
-      internalID: -1967248938997301209
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HellSpawnAnim_6
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 9
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: acfadc41617437740800000000000000
-      internalID: 5148536959178485706
+      spriteID: 6694287e60d2c5f488dbe9cbd33617e0
+      internalID: -450074435
       vertices: []
       indices: 
       edges: []
@@ -275,7 +222,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e53f73ce4a2451c4b9af1d8b15584cc4
     internalID: 0
     vertices: []
     indices: 
@@ -285,13 +232,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      HellSpawnAnim_0: -6361960196401518050
-      HellSpawnAnim_1: -1391723043005884202
-      HellSpawnAnim_2: -4537247725323126575
-      HellSpawnAnim_3: 6932190556872498149
-      HellSpawnAnim_4: 472683804999359452
-      HellSpawnAnim_5: -1967248938997301209
-      HellSpawnAnim_6: 5148536959178485706
+      HellSpawnAnim_0: 810096469
+      HellSpawnAnim_1: -1529308707
+      HellSpawnAnim_2: -832570710
+      HellSpawnAnim_3: -450074435
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
