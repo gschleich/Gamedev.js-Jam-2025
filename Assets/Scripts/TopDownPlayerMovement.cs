@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TopDownPlayerMovement : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class TopDownPlayerMovement : MonoBehaviour
     public Transform[] weaponSpriteTransforms = new Transform[4];
     public SpriteRenderer[] weaponSpriteRenderers = new SpriteRenderer[4];
 
-    private int currentWeaponIndex = 0;
+    public int currentWeaponIndex = 0;
 
     private Vector2 movement;
     private Vector2 lastMovementDirection;
@@ -30,6 +31,11 @@ public class TopDownPlayerMovement : MonoBehaviour
 
     private WeaponParent weaponParent;
 
+    public RectTransform meter;  // Reference to the meter (UI element)
+    public GameObject gameOverUI;  // Reference to the GameOver UI
+
+    private const string MeterPositionKey = "MeterPosition";
+
     private void Awake()
     {
         weaponParent = GetComponentInChildren<WeaponParent>();
@@ -39,6 +45,13 @@ public class TopDownPlayerMovement : MonoBehaviour
         {
             if (weaponSpriteTransforms[i] != null)
                 weaponSpriteTransforms[i].gameObject.SetActive(i == currentWeaponIndex);
+        }
+
+        // Load the meter's position from PlayerPrefs if it exists
+        if (PlayerPrefs.HasKey(MeterPositionKey))
+        {
+            float savedX = PlayerPrefs.GetFloat(MeterPositionKey);
+            meter.anchoredPosition = new Vector2(savedX, meter.anchoredPosition.y);
         }
     }
 
@@ -165,5 +178,28 @@ public class TopDownPlayerMovement : MonoBehaviour
             weaponSpriteTransforms[index].gameObject.SetActive(true);
 
         currentWeaponIndex = index;
+    }
+
+    // Method to call when an enemy is destroyed
+    public void UpdateMeter(int weaponIndex)
+    {
+        float moveAmount = (weaponIndex == 0) ? 10f : -10f;  // +10 for Weapon1, -10 for Weapon2
+        meter.anchoredPosition += new Vector2(moveAmount, 0);  // Move meter on x-axis
+
+        // Save the new meter position to PlayerPrefs
+        PlayerPrefs.SetFloat(MeterPositionKey, meter.anchoredPosition.x);
+        PlayerPrefs.Save();  // Make sure the changes are saved
+
+        // Check if GameOver condition is met
+        if (meter.anchoredPosition.x <= -450f || meter.anchoredPosition.x >= 450f)
+        {
+            gameOverUI.SetActive(true);  // Show GameOver UI
+        }
+    }
+
+    private void OnApplicationQuit()
+    {
+        // Optional: Clear the saved meter position when the application quits
+        PlayerPrefs.DeleteKey(MeterPositionKey);
     }
 }

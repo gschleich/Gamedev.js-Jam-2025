@@ -11,6 +11,9 @@ public class MainMenu : MonoBehaviour
     public Slider sfxSlider;
     public string nextSceneName;
 
+    // Reference to the meter (UI element) that needs to be reset
+    public RectTransform meter;
+
     private void Start()
     {
         MusicManager.Instance.PlayMusic("MainMenu");
@@ -24,6 +27,15 @@ public class MainMenu : MonoBehaviour
 
     public void Play()
     {
+        // Reset the meter position before loading the next scene
+        if (meter != null)
+        {
+            meter.anchoredPosition = new Vector2(0, meter.anchoredPosition.y); // Reset to (0, currentY)
+            PlayerPrefs.DeleteKey("MeterPosition"); // Optionally clear the saved position
+            PlayerPrefs.Save(); // Ensure changes are saved
+        }
+
+        // Load the next scene
         SceneManager.LoadScene(nextSceneName);
     }
 

@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -19,12 +18,13 @@ public class Health : MonoBehaviour
     public UnityEvent<GameObject> OnHitWithReference, OnDeathWithReference;
 
     private readonly Color hitColor = new Color(0.811f, 0.341f, 0.239f); // CF573D
-    //private readonly Color hitColor = new Color(0.922f, 0.929f, 0.914f); // EBEDE9
     private readonly float hitColorDuration = 0.2f;
 
     private SpriteRenderer spriteRenderer;
     private Color originalColor;
     private Coroutine colorChangeCoroutine;
+
+    public TopDownPlayerMovement playerMovement;  // Reference to player movement script
 
     private void Awake()
     {
@@ -89,6 +89,13 @@ public class Health : MonoBehaviour
             }
 
             gameObject.SetActive(false);
+
+            // Call UpdateMeter with the player's active weapon index
+            if (playerMovement != null)
+            {
+                int weaponIndex = playerMovement.currentWeaponIndex;
+                playerMovement.UpdateMeter(weaponIndex);  // Update the meter when enemy is destroyed
+            }
         }
     }
 
