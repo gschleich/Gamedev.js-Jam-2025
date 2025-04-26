@@ -2191,7 +2191,7 @@ MonoBehaviour:
   OnDeathWithReference:
     m_PersistentCalls:
       m_Calls: []
-  playerMovement: {fileID: 0}
+  playerMovement: {fileID: 2001167952}
 --- !u!114 &773406850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6347,7 +6347,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 2.25}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1264257287
 MonoBehaviour:

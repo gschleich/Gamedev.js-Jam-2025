@@ -134,111 +134,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Barbarian2_outline_idle_0-sheet_0
+      name: HellBoss1_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 12
-        width: 22
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e9a4c5b47bb379760800000000000000
-      internalID: 7464500565819280030
+      spriteID: 20461f71babfda042b69d0b3c1dd62d5
+      internalID: -3229467662359159619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barbarian2_outline_idle_0-sheet_1
+      name: HellBoss1_1
       rect:
         serializedVersion: 2
-        x: 86
-        y: 12
-        width: 22
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1b866eca18a3ee6e0800000000000000
-      internalID: -1806442071903016783
+      spriteID: e1ea573b4be03d34790c4e1c33c186ee
+      internalID: 119666943855799800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barbarian2_outline_idle_0-sheet_2
+      name: HellBoss1_2
       rect:
         serializedVersion: 2
-        x: 150
-        y: 12
-        width: 22
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ef85689f5974133c0800000000000000
-      internalID: -4381642252992751362
+      spriteID: 803967c0960a7454e857051bb776c830
+      internalID: 5015574390073542420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barbarian2_outline_idle_0-sheet_3
+      name: HellBoss1_3
       rect:
         serializedVersion: 2
-        x: 214
-        y: 12
-        width: 22
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d57adc7392b76f830800000000000000
-      internalID: 4104603527354885981
+      spriteID: 2bb1df78c819e534d8692e4c48e27816
+      internalID: 1814357104725972850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barbarian2_outline_idle_0-sheet_4
+      name: HellBoss1_4
       rect:
         serializedVersion: 2
-        x: 278
-        y: 12
-        width: 22
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 47387cf5d98fc5b30800000000000000
-      internalID: 4277567100895593332
+      spriteID: b77c4e3c81a1d5246b893a7276599d56
+      internalID: 3251621736883698883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HellBoss1_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c782600c66d0e4f9ed2b9bb209a831
+      internalID: 8675653147211815806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HellBoss1_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36dba04d62300648a5297f5c1694ed1
+      internalID: 8585380725661887723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HellBoss1_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2faf3d8c7269fb3448034d490cb5b71c
+      internalID: 8813149165464937195
       vertices: []
       indices: 
       edges: []
@@ -247,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7f80fb866e3af5f4e9f3dc94c4aab6a9
     internalID: 0
     vertices: []
     indices: 
