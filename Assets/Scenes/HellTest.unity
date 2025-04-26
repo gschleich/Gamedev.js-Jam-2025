@@ -20061,6 +20061,7 @@ GameObject:
   - component: {fileID: 1640966702}
   - component: {fileID: 1640966704}
   - component: {fileID: 1640966703}
+  - component: {fileID: 1640966705}
   m_Layer: 5
   m_Name: MeterMarker
   m_TagString: Untagged
@@ -20125,6 +20126,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1640966701}
   m_CullTransparentMesh: 1
+--- !u!114 &1640966705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640966701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f903c7ca2ddda94fa69648c65e31573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meterMarker: {fileID: 1640966702}
+  gameOverUI: {fileID: 1919493901}
 --- !u!1 &1647497032
 GameObject:
   m_ObjectHideFlags: 0
