@@ -2668,7 +2668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ee29cfa3b5f78744a45bcd7fadae30e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicName: Hell
+  musicName: HellBoss
 --- !u!4 &1089522227
 Transform:
   m_ObjectHideFlags: 0
@@ -2964,18 +2964,12 @@ MonoBehaviour:
   weaponAnimators:
   - {fileID: 1756852656}
   - {fileID: 620342346}
-  - {fileID: 0}
-  - {fileID: 0}
   weaponSpriteTransforms:
   - {fileID: 1756852655}
   - {fileID: 620342344}
-  - {fileID: 0}
-  - {fileID: 0}
   weaponSpriteRenderers:
   - {fileID: 1756852654}
   - {fileID: 620342347}
-  - {fileID: 0}
-  - {fileID: 0}
   currentWeaponIndex: 0
   meter: {fileID: 1640966702}
   gameOverUI: {fileID: 1919493901}

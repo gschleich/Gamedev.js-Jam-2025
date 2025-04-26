@@ -16797,18 +16797,12 @@ MonoBehaviour:
   weaponAnimators:
   - {fileID: 1266672395}
   - {fileID: 1916420959}
-  - {fileID: 0}
-  - {fileID: 0}
   weaponSpriteTransforms:
   - {fileID: 1266672394}
   - {fileID: 1916420958}
-  - {fileID: 0}
-  - {fileID: 0}
   weaponSpriteRenderers:
   - {fileID: 1266672392}
   - {fileID: 1916420955}
-  - {fileID: 0}
-  - {fileID: 0}
   currentWeaponIndex: 0
   meter: {fileID: 554979453}
   gameOverUI: {fileID: 362543705}

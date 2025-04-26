@@ -13,9 +13,9 @@ public class TopDownPlayerMovement : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public Animator animator;
 
-    public Animator[] weaponAnimators = new Animator[4];
-    public Transform[] weaponSpriteTransforms = new Transform[4];
-    public SpriteRenderer[] weaponSpriteRenderers = new SpriteRenderer[4];
+    public Animator[] weaponAnimators = new Animator[2];
+    public Transform[] weaponSpriteTransforms = new Transform[2];
+    public SpriteRenderer[] weaponSpriteRenderers = new SpriteRenderer[2];
 
     public int currentWeaponIndex = 0;
 
@@ -87,8 +87,6 @@ public class TopDownPlayerMovement : MonoBehaviour
         // Weapon switching
         if (Input.GetKeyDown(KeyCode.Alpha1)) SwitchWeapon(0);
         if (Input.GetKeyDown(KeyCode.Alpha2)) SwitchWeapon(1);
-        if (Input.GetKeyDown(KeyCode.Alpha3)) SwitchWeapon(2);
-        if (Input.GetKeyDown(KeyCode.Alpha4)) SwitchWeapon(3);
 
         // Hold-to-attack input
         if (Input.GetMouseButton(0) && attackCooldownTimer <= 0f)

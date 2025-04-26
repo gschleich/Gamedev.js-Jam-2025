@@ -15833,18 +15833,12 @@ MonoBehaviour:
   weaponAnimators:
   - {fileID: 1266672395}
   - {fileID: 1916420959}
-  - {fileID: 0}
-  - {fileID: 0}
   weaponSpriteTransforms:
   - {fileID: 1266672394}
   - {fileID: 1916420958}
-  - {fileID: 0}
-  - {fileID: 0}
   weaponSpriteRenderers:
   - {fileID: 1266672392}
   - {fileID: 1916420955}
-  - {fileID: 0}
-  - {fileID: 0}
   currentWeaponIndex: 0
   meter: {fileID: 554979453}
   gameOverUI: {fileID: 362543705}
@@ -16064,7 +16058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1cb7ea175c921d49b4f0d1ee08c0d38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 0}
+  playerHealth: {fileID: 2001167950}
   gameOverUI: {fileID: 362543705}
   gameOverMusicName: GameOver
 --- !u!114 &2001891770
@@ -16302,7 +16296,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2080200319
 MonoBehaviour:
   m_ObjectHideFlags: 0

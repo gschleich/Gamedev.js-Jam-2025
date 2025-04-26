@@ -134,11 +134,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1407994959269027108, guid: 8548072c831564fdbbbb637f17918f91, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.8222506
+      value: 1.63
       objectReference: {fileID: 0}
     - target: {fileID: 1407994959269027108, guid: 8548072c831564fdbbbb637f17918f91, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.626361
+      value: 4.67
       objectReference: {fileID: 0}
     - target: {fileID: 1407994959269027108, guid: 8548072c831564fdbbbb637f17918f91, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15962,18 +15962,12 @@ MonoBehaviour:
   weaponAnimators:
   - {fileID: 1266672395}
   - {fileID: 1916420959}
-  - {fileID: 0}
-  - {fileID: 0}
   weaponSpriteTransforms:
   - {fileID: 1266672394}
   - {fileID: 1916420958}
-  - {fileID: 0}
-  - {fileID: 0}
   weaponSpriteRenderers:
   - {fileID: 1266672392}
   - {fileID: 1916420955}
-  - {fileID: 0}
-  - {fileID: 0}
   currentWeaponIndex: 0
   meter: {fileID: 554979453}
   gameOverUI: {fileID: 362543705}
@@ -16431,7 +16425,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2080200319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17301,5 +17295,5 @@ SceneRoots:
   - {fileID: 857739319}
   - {fileID: 2096172755}
   - {fileID: 2001891775}
-  - {fileID: 2080200320}
   - {fileID: 1130070057}
+  - {fileID: 2080200320}
