@@ -18,8 +18,8 @@ public class PlayerProjectile : MonoBehaviour
         float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle);
 
-        // Destroy the projectile after 3 seconds
-        Destroy(gameObject, 3f);
+        // Destroy the projectile after 0.8 seconds
+        Destroy(gameObject, 0.8f);
     }
 
     void Update()
